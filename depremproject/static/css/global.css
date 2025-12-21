@@ -1,0 +1,294 @@
+/* ===================== */
+/* ===== GLOBALS ===== */
+/* ===================== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5f7fa;
+    color: #1d2d50;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* ===================== */
+/* ===== NAVBAR ===== */
+/* ===================== */
+.navbar {
+    width: 100%;
+    background: #003c82;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links a.nav-item {
+    margin-right: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-links a.nav-item:hover {
+    text-decoration: underline;
+}
+
+.nav-btn {
+    background: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+}
+
+.nav-btn:hover {
+    background: white;
+    color: #003c82;
+}
+
+/* ===================== */
+/* ===== HERO SECTION ===== */
+/* ===================== */
+.hero-section {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero-shield {
+    margin: 0 auto 20px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    stroke: #ffc107;
+}
+
+.hero-section h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.hero-section p {
+    font-size: 16px;
+    margin: 15px 0 25px;
+    opacity: 0.9;
+}
+
+.primary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #dc3545;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primary-btn svg {
+    margin-right: 8px;
+    stroke: white;
+    transition: transform 0.3s ease;
+}
+
+.primary-btn:hover {
+    background: #c82333;
+}
+
+.primary-btn:hover svg {
+    transform: translateX(4px);
+}
+
+.login-prompt {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* ===================== */
+/* ===== FEATURES SECTION ===== */
+/* ===================== */
+.features-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #003c82;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+.feature-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.feature-icon-container {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-icon-container {
+    transform: scale(1.1);
+}
+
+.location-icon-container { background-color: #cce5ff; }
+.location-icon { stroke: #0059c8; }
+
+.alert-icon-container { background-color: #fff3cd; }
+.alert-icon { stroke: #ff7a00; }
+
+.help-icon-container { background-color: #d4edda; }
+.help-icon { stroke: #28a745; }
+
+.feature-icon {
+    width: 36px;
+    height: 36px;
+    stroke-width: 2.5;
+}
+
+/* ===================== */
+/* ===== ANNOUNCEMENTS ===== */
+/* ===================== */
+.announcements-section {
+    padding: 50px 20px;
+    background: #f5f7fa;
+}
+
+.announcement-list {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.announcement-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 25px;
+    border-bottom: 1px solid #e4e6eb;
+    transition: background 0.3s ease;
+}
+
+.announcement-item:last-child {
+    border-bottom: none;
+}
+
+.announcement-item:hover {
+    background: #e2f0ff;
+}
+
+.announcement-item .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.red { background: #d9534f; }
+.yellow { background: #f0ad4e; }
+.green { background: #5cb85c; }
+
+.announcement-item .text { font-weight: 500; }
+
+/* ===================== */
+/* ===== FOOTER ===== */
+/* ===================== */
+.footer {
+    background: #003c82;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffc107;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===================== */
+/* ===== DEPO PANEL NAVBAR ===== */
+/* ===================== */
+.page-link-btn {
+    padding: 10px 22px;
+    background: #0d6efd;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.page-link-btn:hover {
+    background: #0948b3;
+    transform: translateY(-3px);
+}
+
+.page-link-btn.active {
+    background: #198754;
+}
+
+/* Badge Renkleri */
+.badge-ok { background: #28a745; }
+.badge-bekle { background: #ffc107; color: black; }
+.badge-sevkiyatta { background: #0d6efd; }
+
+/* ===================== */
+/* ===== RESPONSIVE ===== */
+/* ===================== */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .nav-links { margin-top: 10px; }
+    .feature-grid { gap: 25px; }
+    .hero-section { padding: 50px 15px; }
+}

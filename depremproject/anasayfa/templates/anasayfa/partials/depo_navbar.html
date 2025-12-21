@@ -1,0 +1,38 @@
+<div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+
+    <h2>
+        {% if request.resolver_match.url_name == 'warehouse_dashboard' %}
+            📦 Depo Yönetimi
+        {% elif request.resolver_match.url_name == 'talep-yonetim' %}
+            📄 Talep Yönetimi
+        {% elif request.resolver_match.url_name == 'depo_sevkiyat_takip' %}
+            🚚 Sevkiyat Takibi
+        {% elif request.resolver_match.url_name == 'gecmis_sevkiyatlar' %}
+            🕘 Geçmiş Sevkiyatlar
+        {% else %}
+            📦 Depo Yönetimi
+        {% endif %}
+    </h2>
+
+    <a href="{% url 'warehouse_dashboard' %}"
+       class="page-link-btn {% if request.resolver_match.url_name == 'warehouse_dashboard' %}active{% endif %}">
+        🏠 Depo Yönetimi
+    </a>
+
+    <a href="{% url 'talep-yonetim' %}"
+       class="page-link-btn {% if request.resolver_match.url_name == 'talep-yonetim' %}active{% endif %}">
+        📄 Talep Yönetimi
+    </a>
+
+    <a href="{% url 'depo_sevkiyat_takip' %}"
+       class="page-link-btn {% if request.resolver_match.url_name == 'depo_sevkiyat_takip' %}active{% endif %}">
+        🚚 Sevkiyat Takibi
+    </a>
+
+    <a href="{% url 'gecmis_sevkiyatlar' %}"
+       class="page-link-btn {% if request.resolver_match.url_name == 'gecmis_sevkiyatlar' %}active{% endif %}">
+        🕘 Geçmiş Sevkiyatlar
+    </a>
+
+</div>
+

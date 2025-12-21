@@ -1,0 +1,56 @@
+{% extends "anasayfa/base.html" %}
+
+{% block title %}Giriş Yap{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4 shadow" style="max-width: 400px; width: 100%;">
+        
+        <div class="text-center mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                class="bi bi-person-circle mx-auto mb-2" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.578 10.29 5.56 10 8 10s4.422.292 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg>
+            <h2 class="mt-2">Giriş Yap</h2>
+            <p class="text-muted">Hesabınıza giriş yapın</p>
+        </div>
+            {% if error %}
+            <div class="alert alert-danger">
+                {{ error }}
+            </div>
+            {% endif %}
+
+
+        <form method="POST">
+            {% csrf_token %}
+            
+            <div class="mb-3">
+                <label for="username" class="form-label">E-posta / TC</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="örnek@email.com" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Şifre</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Şifreniz" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="user_type" class="form-label">Kullanıcı Tipi</label>
+                <select class="form-select" id="user_type" name="user_type" required>
+                    <option value="citizen">Vatandaş</option>
+                    <option value="area_officer">Alan Yetkilisi</option>
+                    <option value="warehouse_officer">Depo Yetkilisi</option>
+                    <option value ="driver">Sürücü</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Giriş Yap</button>
+
+            <div class="text-center mt-3">
+                Hesabınız yok mu? <a href="{% url 'register' %}">Kayıt Ol</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

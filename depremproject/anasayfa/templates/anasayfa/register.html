@@ -1,0 +1,90 @@
+{% extends "anasayfa/base.html" %}
+
+{% block title %}Kayıt Ol{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card p-4 shadow-lg" style="max-width: 420px; width: 100%; border-radius: 16px;">
+       <div class="text-center mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                 class="bi bi-person-plus mx-auto" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M8 9a5 5 0 0 0-4.546 2.916C3.426 12.81 5.571 13 8 13s4.574-.19 4.546-.084A5 5 0 0 0 8 9z"/>
+                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+            </svg>
+            <h3 class="mt-2">Kayıt Ol</h3>
+        </div>
+        {% if error %}
+            <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <div class="mb-3">
+                <label class="form-label">Ad</label>
+                <input type="text" class="form-control" name="ad" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Soyad</label>
+                <input type="text" class="form-control" name="soyad" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">TC Kimlik</label>
+                <input type="text" class="form-control" name="tc_kimlik" maxlength="11" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Telefon</label>
+                <input type="text" class="form-control" name="telefon_bilgisi" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">E-posta</label>
+                <input type="email" class="form-control" name="email" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Yaş</label>
+                <input type="number" class="form-control" name="yas" min="18" max="100" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Cinsiyet</label>
+                <select class="form-select" name="cinsiyet">
+                    <option value="True">Erkek</option>
+                    <option value="False">Kadın</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Şifre</label>
+                <input type="password" class="form-control" name="password" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Şifre Tekrar</label>
+                <input type="password" class="form-control" name="password2" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Rol</label>
+                <select class="form-select" name="rolID" required>
+                    {% for r in roller %}
+                    <option value="{{ r.rolID }}">{{ r.rolAd }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <button class="btn btn-success w-100">Kayıt Ol</button>
+        </form>
+
+        <div class="text-center mt-3">
+            <a href="{% url 'login' %}">Giriş Yap</a>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,149 @@
+{% extends "anasayfa/base.html" %}
+
+{% block title %}Ev Fiyat Tahmini | Afet Yönetim Sistemi{% endblock %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ev Fiyat Tahmini</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #f4f6f8;
+        }
+        .container-box {
+            max-width: 650px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .sonuc {
+            background: #e8f5e9;
+            border-left: 5px solid #2e7d32;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="container-box">
+        <h2 class="text-center mb-4">🏠 Ev Fiyat Tahmini</h2>
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">Banyo Sayısı</label>
+                    <input type="number" step="0.5" name="banyo_sayisi" class="form-control" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Brüt Metrekare</label>
+                    <input type="number" step="0.1" name="brut_metrekare" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Bina Yaşı</label>
+                    <input type="number" name="bina_yasi" class="form-control" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Binanın Kat Sayısı</label>
+                    <input type="number" name="bina_kat_sayisi" class="form-control" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Yayında Kalma Süresi (gün)</label>
+                    <input type="number" name="yayin_suresi" class="form-control" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Bulunduğu Kat</label>
+                    <input type="number" name="bulundugu_kat" class="form-control" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Toplam Oda Sayısı</label>
+                    <input type="number" name="toplam_oda" class="form-control" required>
+                </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Isıtma Tipi</label>
+                <select name="isitma_enc" class="form-select" required>
+                    <option value="">Seçiniz</option>
+                    <option value="0">Doğalgaz</option>
+                    <option value="1">Merkezi</option>
+                    <option value="2">Diğer</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Ev Tipi</label>
+                <select name="tipi_enc" class="form-select" required>
+                    <option value="">Seçiniz</option>
+                    <option value="0">Daire</option>
+                    <option value="1">Müstakil</option>
+                    <option value="2">Diğer</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Tapu Durumu</label>
+                <select name="tapu_irtifak" class="form-select" required>
+                    <option value="">Seçiniz</option>
+                    <option value="0">Kat İrtifakı</option>
+                    <option value="1">Kat Mülkiyeti</option>
+                </select>
+            </div>
+
+
+                <div class="col-md-6">
+                    <label class="form-label">Ev Durumu</label>
+                    <select name="kullanim_enc" class="form-select" required>
+                        <option value="">Seçiniz</option>
+                        <option value="0">Boş</option>
+                        <option value="1">Kiracılı</option>
+                        <option value="2">Mal Sahibi</option>
+                    </select>
+                </div>
+
+
+                <div class="col-12">
+                    <label class="form-label">Mahalle</label>
+                    <select name="mahalle_secimi" class="form-select" required>
+                        <option value="">Seçiniz</option>
+                        <option value="kazimdirik">Kazımdirik</option>
+                        <option value="erzene">Erzene</option>
+                        <option value="yakakoy">Yakaköy</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 mt-4">
+                🔍 Tahmin Et
+            </button>
+        </form>
+
+        {% if sonuc %}
+        <div class="sonuc alert mt-4">
+            💰 <strong>Tahmini Fiyat:</strong> {{ sonuc }}
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+{% endblock %}

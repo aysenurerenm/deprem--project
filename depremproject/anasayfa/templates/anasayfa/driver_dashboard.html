@@ -1,0 +1,217 @@
+{% extends "anasayfa/base.html" %}
+
+{% block title %}Sürücü Paneli{% endblock %}
+
+{% block content %}
+
+<link rel="stylesheet"
+      href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"/>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+<div class="container-fluid mt-4">
+
+    <h2 class="mb-4 fw-bold">🚚 Sürücü Paneli</h2>
+
+    {% if mesaj %}
+        <div class="alert alert-warning">{{ mesaj }}</div>
+    {% endif %}
+
+    <div class="row">
+
+        <!-- SOL TARAF — HARİTA -->
+ <div class="col-lg-7">
+            {% if start_lat and start_lng and end_lat and end_lng %}
+            <div class="card shadow-sm mb-4" style="height: 70vh;">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0 fw-bold">🗺️ Rota Haritası</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div id="map" style="height:100%; width:100%;"></div>
+                </div>
+            </div>
+
+            <script>
+                const startLat = {{ start_lat }};
+                const startLng = {{ start_lng }};
+                const endLat   = {{ end_lat }};
+                const endLng   = {{ end_lng }};
+
+                const map = L.map('map').setView([startLat, startLng], 13);
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 18,
+                    attribution: '&copy; OpenStreetMap'
+                }).addTo(map);
+
+                L.marker([startLat, startLng])
+                    .addTo(map)
+                    .bindPopup("🚚 Kalkış: {{ kalkis }}");
+
+                L.marker([endLat, endLng])
+                    .addTo(map)
+                    .bindPopup("📍 Varış: {{ varis }}");
+
+                // 🚗 GERÇEK YOL ROTASI
+                L.Routing.control({
+                    waypoints: [
+                        L.latLng(startLat, startLng),
+                        L.latLng(endLat, endLng)
+                    ],
+                    router: L.Routing.osrmv1({
+                        serviceUrl: 'https://router.project-osrm.org/route/v1'
+                    }),
+                    addWaypoints: false,
+                    draggableWaypoints: false,
+                    routeWhileDragging: false,
+                    show: false,
+                    lineOptions: {
+                        styles: [{ weight: 6, opacity: 0.9 }]
+                    }
+                }).addTo(map);
+            </script>
+            {% endif %}
+        </div>
+
+        <!-- SAĞ TARAF — ARAÇ & ROTA & YÜK -->
+        <div class="col-lg-5">
+
+            {% if arac %}
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-white">
+                    <h5 class="mb-0 fw-bold">🚗 Araç Bilgileri</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Plaka:</strong> {{ arac.plaka }}</p>
+                    <p><strong>Model:</strong> {{ arac.aracTip }}</p>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if kalkis and varis %}
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-white">
+                    <h5 class="mb-0 fw-bold">📍 Rota Bilgisi</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Kalkış:</strong> {{ kalkis }}</p>
+                    <p><strong>Varış:</strong> {{ varis }}</p>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if yukler %}
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-white">
+                    <h5 class="mb-0 fw-bold">📦 Yük Detayları</h5>
+                </div>
+                <div class="card-body p-0">
+                    <table class="table table-striped table-hover mb-0">
+                        <thead class="table-white">
+                            <tr>
+                                <th>Ürün</th>
+                                <th>Miktar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for y in yukler %}
+                            <tr>
+                                <td>{{ y.urunAd }}</td>
+                                <td>{{ y.yukMiktar }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+            {% for d in detaylar %}
+                <form method="post" action="{% url 'surucu_tamamlandi' d.id %}">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-success">
+                        ✅ Tamamlandı
+                    </button>
+                </form>
+                {% endfor %}
+
+
+        </div>
+
+    </div>
+
+
+    <!-- HARİTA ALTINDAKİ TAM GENİŞLİK BLOK -->
+    <div class="row mt-4">
+        <div class="col-12">
+
+            <!-- 1) ALAN YETKİLİLERİ -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="mb-0 fw-bold">📍 Alan Yetkilileri</h5>
+                </div>
+                <div class="card-body p-0">
+                    <table class="table table-bordered table-striped table-hover mb-0">
+                        <thead class="table-white">
+                            <tr>
+                                <th>Ad</th>
+                                <th>Soyad</th>
+                                <th>Telefon</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for y in alan_yetkilileri %}
+                            <tr>
+                                <td>{{ y.ad }}</td>
+                                <td>{{ y.soyad }}</td>
+                                <td>{{ y.telefon }}</td>
+                                <td>{{ y.email }}</td>
+                            </tr>
+                            {% empty %}
+                            <tr>
+                                <td colspan="4" class="text-center text-muted">Kayıtlı alan yetkilisi bulunmuyor.</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 2) DEPO YETKİLİLERİ -->
+            <div class="card shadow-sm mb-5">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0 fw-bold">🏭 Depo Yetkilileri</h5>
+                </div>
+                <div class="card-body p-0">
+                    <table class="table table-bordered table-striped table-hover mb-0">
+                        <thead class="table-white ">
+                            <tr>
+                                <th>Ad</th>
+                                <th>Soyad</th>
+                                <th>Telefon</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for d in depo_yetkilileri %}
+                            <tr>
+                                <td>{{ d.ad }}</td>
+                                <td>{{ d.soyad }}</td>
+                                <td>{{ d.telefon }}</td>
+                                <td>{{ d.email }}</td>
+                            </tr>
+                            {% empty %}
+                            <tr>
+                                <td colspan="4" class="text-center text-muted">Kayıtlı depo yetkilisi bulunmuyor.</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

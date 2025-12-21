@@ -1,0 +1,54 @@
+{% extends "anasayfa/base.html" %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+  {% include "anasayfa/partials/depo_navbar.html" %}
+</div>
+
+
+    {% if hata %}
+        <div class="alert alert-danger">{{ hata }}</div>
+    {% endif %}
+
+    <table class="table table-bordered table-striped mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Araç ID</th>
+                <th>Ürün</th>
+                <th>Toplanma Alanı</th>
+                <th>Yük ID</th>
+                <th>Durum</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for s in sevkiyatlar %}
+            <tr>
+                <td>{{ s.aracID }}</td>
+                <td>{{ s.urunAd }}</td>
+                <td>{{ s.alanAd }}</td>
+                <td>{{ s.yukID }}</td>
+                <td>
+                    {% if s.durum == "Hazırlanıyor" %}
+                        <span class="badge bg-warning text-dark">{{ s.durum }}</span>
+                    {% elif s.durum == "Yolda" %}
+                        <span class="badge bg-primary">{{ s.durum }}</span>
+                    {% elif s.durum == "Teslim Edildi" %}
+                        <span class="badge bg-success">{{ s.durum }}</span>
+                    {% else %}
+                        <span class="badge bg-secondary">{{ s.durum }}</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="6" class="text-center">Bu depoya ait sevkiyat bulunmuyor.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+
+{% endblock %}

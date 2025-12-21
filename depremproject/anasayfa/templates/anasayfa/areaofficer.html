@@ -1,0 +1,285 @@
+{% extends "anasayfa/base.html" %}
+{% load area_components %}
+
+{% block content %}
+<div class="container mt-4">
+
+    <!-- ÜST BİLGİ KARTLARI -->
+    <div class="row mb-4 text-center">
+
+        <!-- Toplam Kişi -->
+        <div class="col-md-3">
+            <div class="card shadow-sm p-3">
+                <h5>Toplam Kişi</h5>
+                <h2>{{ toplam_kisi }}</h2>
+                <small>Bu alandaki toplam kişi sayısı</small>
+            </div>
+        </div>
+
+        <!-- Doluluk Oranı -->
+        <div class="col-md-3">
+            <div class="card shadow-sm p-3">
+                <h5>Doluluk Oranı</h5>
+                <h2>{{ doluluk_orani }}%</h2>
+                <small>Kapasite: {{ kapasite }}</small>
+            </div>
+        </div>
+
+        <!-- Bekleyen İhtiyaç -->
+        <div class="col-md-3">
+            <div class="card shadow-sm p-3">
+                <h5>Bekleyen Talepler</h5>
+                <h2 class="text-warning">{{ bekleyen_ihtiyac }}</h2>
+                <small>İşlem bekleyen ihtiyaçlar</small>
+            </div>
+        </div>
+
+        <!-- Tamamlanan İhtiyaç -->
+        <div class="col-md-3">
+            <div class="card shadow-sm p-3">
+                <h5>Tamamlanan Yardımlar</h5>
+                <h2 class="text-success">{{ tamamlanan_ihtiyac }}</h2>
+                <small>Teslim edilen ihtiyaçlar</small>
+            </div>
+        </div>
+
+    </div>
+
+ <!-- Son Eklenen 5 Kullanıcı -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <strong>Son Eklenen 5 Kullanıcı</strong>
+            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#kullaniciEkleModal">
+                + Yeni Kişi Ekle
+            </button>
+        </div>
+
+        <div class="card-body">
+            {% render_son_eklenen_vatandas %}
+        </div>
+    </div>
+    <div class="d-flex justify-content-end mb-2">
+    <button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#tumVatandasModal">
+        Tüm Vatandaşları Gör
+    </button>
+</div>
+    <!-- İhtiyaç Listesi -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-danger text-white d-flex justify-content-between align-items-center">
+            <strong>İhtiyaç Listesi</strong>
+            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#ihtiyacEkleModal">
+                + Yeni İhtiyaç Ekle
+            </button>
+        </div>
+
+        <div class="card-body">
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Ürün</th>
+                        <th>Miktar</th>
+                        <th>Durum</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in ihtiyaclar %}
+                    <tr>
+                        <td>{{ i.urun }}</td>
+                        <td>{{ i.miktar }}</td>
+                        <td>{{ i.durum }}</td>
+
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="5" class="text-center">Bu alanda ihtiyaç kaydı yok.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-body">
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Ürün</th>
+                        <th>Miktar</th>
+                        <th>Durum</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in tamamlanan_ihtiyaclar %}
+                    <tr>
+                        <td>{{ i.urun }}</td>
+                        <td>{{ i.miktar }}</td>
+                        <td>{{ i.durum }}</td>
+
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="3" class="text-center">Bu alanda ihtiyaç kaydı yok.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <!-- --- MODAL: Yeni Kişi Ekle --- -->
+    <div class="modal fade" id="kullaniciEkleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <form method="POST" action="{% url 'kullanici_ekle' %}" class="modal-content">
+                {% csrf_token %}
+                
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">Yeni Kişi Ekle</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <label>TC</label>
+                    <input type="number" name="tc" class="form-control mb-2" required>
+
+                    <label>Telefon</label>
+                    <input type="number" name="telefon" class="form-control mb-2">
+
+                    <label>Ad</label>
+                    <input type="text" name="ad" class="form-control mb-2" required>
+
+                    <label>Soyad</label>
+                    <input type="text" name="soyad" class="form-control mb-2" required>
+
+                    <label>Yaş</label>
+                    <input type="number" name="yas" class="form-control mb-2">
+
+                    <label>Cinsiyet</label>
+                    <select name="cinsiyet" class="form-control">
+                        <option value="1">Erkek</option>
+                        <option value="0">Kadın</option>
+                    </select>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- --- MODAL: Yeni İhtiyaç Ekle --- -->
+    <div class="modal fade" id="ihtiyacEkleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <form method="POST" action="{% url 'ihtiyac_ekle' %}" class="modal-content">
+                {% csrf_token %}
+                
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title">Yeni İhtiyaç Ekle</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <label>Ürün</label>
+                    <select name="urunID" class="form-control mb-2" required>
+                        {% for urun in urunler %}
+                            <option value="{{ urun.urunID }}">{{ urun.urunAd }}</option>
+                        {% empty %}
+                            <option value="" disabled>Veritabanında ürün bulunamadı.</option>
+                        {% endfor %}
+                    </select>
+
+                    <label>Miktar</label>
+                    <input type="number" name="miktar" class="form-control mb-2" min="1" required>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger">Kaydet</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
+    <!-- --- MODAL: Tüm Vatandaşlar --- -->
+    <div class="modal fade" id="tumVatandasModal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title">Bu Alanın Tüm Vatandaşları</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th>Ad</th>
+                                <th>Soyad</th>
+                                <th>TC</th>
+                                <th>Telefon</th>
+                                <th>Yaş</th>
+                                <th>Cinsiyet</th>
+                                <th>Durum</th>
+                                <th>Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for kisi in tum_vatandas %}
+                            <tr>
+                                {% if kisi.kullaniciid %}
+                                <form method="POST" action="{% url 'kisi_durum_guncelle' kisi.kullaniciid %}">
+                                    {% csrf_token %}
+                                    <td>{{ kisi.ad }}</td>
+                                    <td>{{ kisi.soyad }}</td>
+                                    <td>{{ kisi.tc }}</td>
+                                    <td>{{ kisi.telefon }}</td>
+                                    <td>{{ kisi.yas }}</td>
+                                    <td>
+                                        {% if kisi.cinsiyet == True or kisi.cinsiyet == 1 %}
+                                            Erkek
+                                        {% elif kisi.cinsiyet == False or kisi.cinsiyet == 0 %}
+                                            Kadın
+                                        {% else %}
+                                            Bilinmiyor
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        <select name="durum" class="form-select form-select-sm">
+                                        <option value="Güvende" {% if kisi.durum == 'Güvende' %}selected{% endif %}>Güvende</option>
+                                        <option value="Yardım Bekliyor" {% if kisi.durum == 'Yardım Bekliyor' %}selected{% endif %}>Yardım Bekliyor</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <button type="submit" class="btn btn-sm btn-primary">Güncelle</button>
+                                    </td>
+                                </form>
+                                {% else %}
+                                    <td colspan="8" class="text-center">Kullanıcı ID bulunamadı!</td>
+                                {% endif %}
+                            </tr>
+                            {% empty %}
+                            <tr>
+                                <td colspan="8" class="text-center">Bu alanda vatandaş bulunmamaktadır.</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

@@ -1,0 +1,103 @@
+{% extends "anasayfa/base.html" %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+    #harita {
+        width: 100%;
+        height: 500px;
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .badge-success { background: #28a745 !important; }
+    .badge-warning { background: #ffc107 !important; color:black !important; }
+    .badge-danger { background: #dc3545 !important; }
+</style>
+
+<div class="container mt-4">
+
+    <div class="row">
+        <!-- SOL HARİTA -->
+        <div class="col-md-8">
+            <h3>Toplanma Alanları Haritası</h3>
+            <div id="harita"></div>
+        </div>
+
+        <!-- SAĞ LİSTE -->
+        <div class="col-md-4">
+            <h3>Toplanma Alanları ({{ alanlar|length }})</h3>
+
+             <div class="list-group">
+                {% for alan in alanlar %}
+                <div class="list-group-item">
+                    <h5 class="mb-1">{{ alan.Ad }}</h5>
+                    <small>{{ alan.Mahalle }}</small><br>
+                    <small style="color:gray;">
+                        {{ alan.enlem }} , {{ alan.boylam }}
+                    </small>
+                </div>
+                {% empty %}
+                <div class="alert alert-warning">Kayıtlı toplanma alanı yok.</div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+// PYTHON → JAVASCRIPT DÖNEN VERİ
+var alanlar = [
+    {% for a in alanlar %}
+    {
+        ad: "{{ a.Ad|escapejs }}",
+        mahalle:"{{ a.Mahalle|escapejs }}",
+        enlem: {{ a.enlem|floatformat:6 }},
+        boylam: {{ a.boylam|floatformat:6 }},
+        
+    },
+    {% endfor %}
+];
+
+// BORONOVA MERKEZ
+var bornova_center = [38.4622, 27.2160];
+
+// HARİTA OLUŞTUR
+var map = L.map('harita').setView(bornova_center, 13);
+
+// KATLAMAN
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+}).addTo(map);
+
+// MARKER RENK FONKSİYONU
+
+var bounds = [];
+
+// MARKER OLUŞTUR
+alanlar.forEach(a => {
+    if (!isNaN(a.enlem) && !isNaN(a.boylam)) {
+
+        var marker = L.marker([a.enlem, a.boylam])
+            .addTo(map)
+            .bindPopup(
+                "<b>📍 " + a.ad + "</b><br>" +
+                "🏘️ " + a.mahalle
+            );
+
+        bounds.push([a.enlem, a.boylam]);
+    }
+});
+
+// MARKER VARSA → HEPSİNİ KAPSAYACAK ŞEKİLDE ZOOM
+if (bounds.length > 0) {
+    map.fitBounds(bounds, { padding: [40, 40] });
+}
+
+</script>
+
+{% endblock %}

@@ -1,0 +1,84 @@
+{% extends "anasayfa/base.html" %}
+{% block content %}
+
+<div class="container mt-4">
+
+  {% include "anasayfa/partials/depo_navbar.html" %}
+</div>
+
+
+<table class="table table-bordered table-striped align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Ürün</th>
+            <th>Miktar</th>
+            <th>Alan</th>
+            <th>Durum</th>
+            <th style="width: 220px;">İşlem</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    {% for i in ihtiyaclar %}
+        <tr>
+            <td>{{ i.ihtiyacID }}</td>
+            <td>{{ i.urunAd }}</td>
+            <td>{{ i.miktar }}</td>
+            <td>{{ i.alanAd }}</td>
+
+        <td>
+            {% if i.durum == "beklemede" %}
+                <span class="badge bg-secondary">Beklemede</span>
+
+            {% elif i.durum == "Onaylı" %}
+                <span class="badge bg-primary">Onaylı</span>
+
+            {% elif i.durum == "Sevkiyatta" %}
+                <span class="badge bg-warning text-dark">Sevkiyatta</span>
+
+            {% elif i.durum == "Tamamlandı" %}
+                <span class="badge bg-success">Tamamlandı</span>
+
+            {% else %}
+                <span class="badge bg-dark">{{ i.durum }}</span>
+            {% endif %}
+        </td>
+                    <!-- İŞLEMLER -->
+            <td class="text-center">
+
+                <!-- ONAYLA -->
+                {% if i.durum == "beklemede" %}
+                <form method="post" class="d-inline">
+                    {% csrf_token %}
+                    <input type="hidden" name="ihtiyac_id" value="{{ i.ihtiyacID }}">
+                    <button type="submit" name="onayla" class="btn btn-sm btn-success">
+                        ✅ Onayla
+                    </button>
+                </form>
+                {% endif %}
+
+                <!-- GÖREV ATA -->
+                {% if i.durum == "Onaylı" %}
+                <form method="post" class="d-inline">
+                    {% csrf_token %}
+                    <input type="hidden" name="ihtiyac_id" value="{{ i.ihtiyacID }}">
+                    <button type="submit" name="gorev_atama" class="btn btn-sm btn-primary">
+                        🚚 Araca Ata
+                    </button>
+                </form>
+                {% endif %}
+
+            </td>
+        </tr>
+    {% empty %}
+        <tr>
+            <td colspan="6" class="text-center text-muted">
+                Kayıtlı talep bulunamadı.
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

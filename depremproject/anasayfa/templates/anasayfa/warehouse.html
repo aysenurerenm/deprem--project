@@ -1,0 +1,90 @@
+{% extends "anasayfa/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+
+  {% include "anasayfa/partials/depo_navbar.html" %}
+</div>
+
+    <!-- MESAJLAR -->
+    {% if mesaj %}
+        <div class="alert alert-info">{{ mesaj }}</div>
+    {% endif %}
+
+    {% if hata %}
+        <div class="alert alert-danger">{{ hata }}</div>
+    {% endif %}
+
+    <!-- ÜRÜN EKLEME AÇ/KAPA BUTONU -->
+    <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#urunEkleForm">
+        ➕ Depoya Ürün Ekle
+    </button>
+
+    <!-- AÇILIP KAPANAN FORM -->
+    <div class="collapse" id="urunEkleForm">
+        <div class="card p-3 shadow-sm mb-4">
+            <h5 class="mb-3">Depoya Ürün Ekle</h5>
+
+            <form method="POST">
+                {% csrf_token %}
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="form-label">Ürün</label>
+                        <select name="urun_id" class="form-select" required>
+                            <option value="">Seçiniz...</option>
+                            {% for urun in urunler %}
+                                <option value="{{ urun.urunID }}">
+                                    {{ urun.urunAd }} (Hacim: {{ urun.urunHacim }})
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label class="form-label">Miktar</label>
+                        <input type="number" name="miktar" class="form-control" min="1" required>
+                    </div>
+
+                    <div class="col-md-3 d-flex align-items-end">
+                        <button class="btn btn-success w-100">Ekle</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- DEPO İÇERİĞİ TABLOSU -->
+    <div class="card p-3 shadow-sm">
+        <h5 class="mb-3">Depodaki Ürünler</h5>
+
+        {% if depo_urunler %}
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Ürün</th>
+                        <th>Miktar</th>
+                        <th>Birim Hacim</th>
+                        <th>Toplam Hacim</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in depo_urunler %}
+                    <tr>
+                        <td>{{ item.urunAd }}</td>
+                        <td>{{ item.urunMiktar }}</td>
+                        <td>{{ item.urunHacim }}</td>
+                        <td>{{ item.toplam_hacim }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <div class="alert alert-warning">Bu depoda henüz ürün yok.</div>
+        {% endif %}
+    </div>
+
+
+</div>
+{% endblock %}

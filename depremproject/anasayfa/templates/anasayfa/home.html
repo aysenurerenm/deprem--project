@@ -1,0 +1,195 @@
+{% extends "anasayfa/base.html" %}
+
+{% block title %}Ana Sayfa | Afet Yönetim Sistemi{% endblock %}
+
+{% block content %}
+
+<!-- ================= HERO ================= -->
+<section class="hero-section">
+    <svg width="64" height="64" viewBox="0 0 24 24" fill="none"
+         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+         class="hero-shield">
+         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+    </svg>
+
+    <h1>Güvende Kalın, Haberdar Olun</h1>
+    <p>Afet anında doğru bilgiye hızla ulaşın, yardım talep edin ve güvenlik bilgilerine anında erişin</p>
+
+    <!-- DEĞİŞTİRİLEN BUTON -->
+    <a onclick="enYakinAlaniGoster()" class="btn btn-warning" style="cursor:pointer;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-sm">
+             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+             <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        En Yakın Toplanma Alanını Bul
+    </a>
+
+    {% if not request.session.kullaniciID %}
+    <a href="{% url 'login' %}" class="login-prompt"
+       style="margin-top: 12px; display: block; color: white;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+         style="margin-right: 6px; vertical-align: middle;">
+         <path d="M20 21v-2a4 4 0 0 0-3-3.87"></path>
+         <path d="M4 21v-2a4 4 0 0 1 3-3.87"></path>
+         <circle cx="12" cy="7" r="4"></circle>
+    </svg>
+        Giriş Yap / Kayıt Ol
+    </a>
+    {% endif %}
+</section>
+
+
+
+<!-- ================= SON DEPREMLER ================= -->
+<section class="container my-5">
+    <h2 class="mb-4 text-center fw-bold"> Son Depremler</h2>
+
+    {% if earthquakes %}
+    <div class="row g-4">
+
+        {% for q in earthquakes %}
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        {{ q.yer }}
+                    </h5>
+
+                    <p class="card-text text-muted mb-2">
+                        <i class="bi bi-calendar-event"></i> {{ q.tarih }}
+                    </p>
+
+                    <div class="d-flex justify-content-between mt-3">
+
+                        <div>
+                            <span class="badge bg-danger fs-6">
+                                {{ q.mag }} ML
+                            </span>
+                            <p class="small mb-0 text-muted">Büyüklük</p>
+                        </div>
+
+                        <div>
+                            <span class="badge bg-secondary fs-6">
+                                {{ q.derinlik }} km
+                            </span>
+                            <p class="small mb-0 text-muted">Derinlik</p>
+                        </div>
+
+                        <div>
+                            <span class="badge bg-info text-dark fs-6">
+                                {{ q.lat }}, {{ q.lon }}
+                            </span>
+                            <p class="small mb-0 text-muted">Konum</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+
+    {% else %}
+    <div class="alert alert-warning text-center">
+        Şu an deprem bilgisine ulaşılamıyor.
+    </div>
+    {% endif %}
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Hakkımızda</h3>
+            <p>Afet ve acil durumlarda hayat kurtaran bilgilere hızlı erişim sağlayan platform.</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Acil İletişim</h3>
+            <ul>
+                <li>112 - Acil Yardım</li>
+                <li>110 - İtfaiye</li>
+                <li>155 - Polis</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Bağlantılar</h3>
+            <ul>
+                <li><a href="/areas/">Toplanma Alanları</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 Afet Yönetim Sistemi. Tüm hakları saklıdır.
+    </div>
+</footer>
+
+
+
+
+<!-- ============== EN YAKIN ALAN MODALI ============== -->
+<div class="modal fade" id="alanModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">📍 En Yakın Toplanma Alanı</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p><b>Alan Adı:</b> <span id="alanAd"></span></p>
+        <p><b>Mesafe:</b> <span id="alanMesafe"></span> metre</p>
+        <p><b>Konum:</b> <span id="alanKonum"></span></p>
+      </div>
+      <div class="modal-footer">
+        <a id="haritaButon" href="/map_page/" class="btn btn-primary">Haritada Gör</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- ============== JAVASCRIPT: KONUM AL + MODAL AÇ ============== -->
+<script>
+function enYakinAlaniGoster() {
+    if (!navigator.geolocation) {
+        alert("Bu tarayıcı konum erişimini desteklemiyor.");
+        return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+        function(pos) {
+            let lat = pos.coords.latitude;
+            let lon = pos.coords.longitude;
+
+            fetch(`/en-yakin-toplanma/?lat=${lat}&lon=${lon}`)
+                .then(res => res.json())
+                .then(data => {
+
+                    document.getElementById("alanAd").innerText = data.Ad;
+                    document.getElementById("alanMesafe").innerText = data.mesafe;
+                    document.getElementById("alanKonum").innerText = data.enlem + ", " + data.boylam;
+
+                    new bootstrap.Modal(document.getElementById('alanModal')).show();
+                });
+        },
+        function(err) {
+            alert("Konum alınamadı: " + err.message);
+        },
+        { enableHighAccuracy: true }
+    );
+}
+</script>
+
+{% endblock %}

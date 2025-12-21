@@ -1,0 +1,213 @@
+{% extends "anasayfa/base.html" %}
+{% block content %}
+
+<div class="container mt-4">
+
+    <h2>Hoş Geldiniz, {{ kullanici.ad }} {{ kullanici.soyad }}</h2>
+    <p>Güvenlik durumunuzu güncelleyebilir ve yardım talep edebilirsiniz.</p>
+
+    <!-- DURUM BİLGİSİ -->
+    {% if kullanici.durum == "Güvende" %}
+        <div class="alert alert-success">✔ Güvendeyim</div>
+    {% elif kullanici.durum == "Yardım Bekliyor" %}
+        <div class="alert alert-danger">⚠ Yardım Bekliyorum</div>
+    {% else %}
+        <div class="alert alert-secondary">Durum Bilgisi Yok</div>
+    {% endif %}
+
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <a href="{% url 'guvende_ol' %}" class="btn btn-success w-100">✔ Güvendeyim</a>
+        </div>
+        <div class="col-md-6">
+            <a href="{% url 'yardim_bekliyorum' %}" class="btn btn-danger w-100">⚠ Yardım Bekliyorum</a>
+        </div>
+    </div>
+
+    <hr class="mt-4">
+
+    <!-- EN YAKIN TOPLANMA ALANI -->
+    <h4>📍 En Yakın Toplanma Alanı</h4>
+    <div class="card p-3 mb-4">
+        <h5>{{ en_yakin.ad }}</h5>
+        <p>Mesafe: <b>{{ en_yakin.mesafe }} km</b></p>
+        <p>Yürüyüş süresi: <b>{{ en_yakin.sure }} dk</b></p>
+    </div>
+
+    <!-- ✨ ALAN YETKİLİLERİ (Gizlenebilir) -->
+    <h4>
+        <button class="btn btn-outline-secondary"
+            data-bs-toggle="collapse"
+            data-bs-target="#alanYetkilileri"
+            aria-expanded="false">
+            👮 Alan Yetkililerini Göster / Gizle
+        </button>
+    </h4>
+
+    <div id="alanYetkilileri" class="collapse mt-2">
+
+        {% if yetkililer %}
+            <table class="table table-bordered mt-2">
+                <thead>
+                    <tr>
+                        <th>Ad Soyad</th>
+                        <th>Telefon</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for y in yetkililer %}
+                    <tr>
+                        <td>{{ y.ad }} {{ y.soyad }}</td>
+                        <td>{{ y.telefon }}</td>
+                        <td>{{ y.email }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p class="text-muted">Bu alanda yetkili bulunmuyor.</p>
+        {% endif %}
+
+    </div>
+
+    <hr>
+
+    <!-- YARDIM TALEPLERİ -->
+    <h4>📦 Yardım Taleplerim</h4>
+    {% for t in talepler %}
+        <div class="card p-2 mb-2">
+            <b>{{ t.0 }}</b> ({{ t.1 }} adet)
+            <p>Alan: {{ t.2 }}</p>
+            <p>Zaman: {{ t.3 }}</p>
+
+            {% if t.4 == "Bekliyor" %}
+                <span class="badge bg-warning">Bekliyor</span>
+            {% elif t.4 == "Onaylandı" %}
+                <span class="badge bg-info">Onaylandı</span>
+            {% else %}
+                <span class="badge bg-success">Teslim Edildi</span>
+            {% endif %}
+        </div>
+    {% empty %}
+        <p>Henüz yardım talebiniz yok.</p>
+    {% endfor %}
+
+    <hr>
+
+    <!-- AİLE ÜYELERİ -->
+    <h4>👨‍👩‍👧 Aile Üyelerim</h4>
+
+    {% for y in yakinlar %}
+        <div class="card p-3 mb-3">
+            <div class="d-flex justify-content-between align-items-center">
+
+                <div>
+                    <b>{{ y.yakin_ad }} {{ y.yakin_soyad }}</b>
+                    — {{ y.yakin_telefon }}
+
+                    {% if y.yakin_durum == "Güvende" %}
+                        <span class="badge bg-success">Güvende</span>
+                    {% elif y.yakin_durum == "Yardım Bekliyor" %}
+                        <span class="badge bg-danger">Yardım Bekliyor</span>
+                    {% else %}
+                        <span class="badge bg-secondary">Durum Bilgisi Yok</span>
+                    {% endif %}
+                </div>
+
+                <!-- Durum güncelle butonu -->
+                <button class="btn btn-outline-primary btn-sm"
+                        data-bs-toggle="modal"
+                        data-bs-target="#durumModal{{ y.yakin_id }}">
+                    Durumu Güncelle
+                </button>
+            </div>
+        </div>
+
+        <!-- DURUM GÜNCELLE MODAL -->
+        <div class="modal fade" id="durumModal{{ y.yakin_id }}" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <form method="POST" action="{% url 'yakin_durum_guncelle' %}">
+                {% csrf_token %}
+                <input type="hidden" name="yakinID" value="{{ y.yakin_id }}">
+
+                <div class="modal-header">
+                  <h5 class="modal-title">{{ y.yakin_ad }} {{ y.yakin_soyad }} — Durum Güncelle</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  <label class="form-label">Yeni Durum Seç:</label>
+                  <select name="durum" class="form-select">
+                    <option value="Güvende">Güvende</option>
+                    <option value="Yardım Bekliyor">Yardım Bekliyor</option>
+                  </select>
+                </div>
+
+                <div class="modal-footer">
+                  <button class="btn btn-primary" type="submit">Kaydet</button>
+                  <button class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+    {% empty %}
+        <p>Aile üyeniz bulunmuyor.</p>
+    {% endfor %}
+
+<hr>
+
+<!-- YAKIN EKLE -->
+<button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#yakinEkleModal">
+    ➕ Yakın Ekle
+</button>
+
+<!-- ACİL NUMARALAR -->
+<h4 class="mt-4">📞 Acil İletişim</h4>
+<div class="card p-3">
+    <p><b>112</b> - Acil Çağrı Merkezi</p>
+    <p><b>110</b> - İtfaiye</p>
+    <p><b>155</b> - Polis</p>
+    <p><b>122</b> - AFAD</p>
+</div>
+
+<!-- YAKIN EKLE MODAL -->
+<div class="modal fade" id="yakinEkleModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form method="POST" action="{% url 'yakin_ekle' %}">
+        {% csrf_token %}
+
+        <div class="modal-header">
+          <h5 class="modal-title">Yakın Ekle</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <label>Yakın TC</label>
+          <input type="number"
+                 name="yakinTC"
+                 class="form-control"
+                 required
+                 minlength="11"
+                 maxlength="11">
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success">Ekle</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,81 @@
+{% extends "anasayfa/base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid">
+<div class="container mt-4">
+
+  {% include "anasayfa/partials/depo_navbar.html" %}
+</div>
+
+    {% if hata %}
+        <div class="alert alert-danger">
+            {{ hata }}
+        </div>
+    {% endif %}
+
+    <!-- =======================
+         TABLO
+    ======================== -->
+    <div class="card shadow-sm">
+        <div class="card-body">
+
+            {% if gecmis_sevkiyatlar %}
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover align-middle">
+                        <thead class="table-dark text-center">
+                            <tr>
+                                <th>#</th>
+                                <th>Ürün</th>
+                                <th>Miktar</th>
+                                <th>Alan</th>
+                                <th>Depo</th>
+                                <th>Durum</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="text-center">
+                            {% for s in gecmis_sevkiyatlar %}
+                                <tr>
+                                    <td>{{ forloop.counter }}</td>
+
+                                    <td>
+                                        {{ s.urunAd|default:"-" }}
+
+                                    </td>
+
+                                    <td>
+                                        {{ s.yukMiktar }}
+                                    </td>
+
+                                    <td>
+                                        {{ s.alanAd|default:"-" }}
+                                    </td>
+
+                                    <td>
+                                        {{ s.depoAd|default:"-" }}
+                                    </td>
+
+                                    <td>
+                                        <span class="badge bg-success">
+                                            ✔ Tamamlandı
+                                        </span>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% else %}
+                <div class="alert alert-warning text-center">
+                    Henüz tamamlanmış sevkiyat bulunmamaktadır.
+                </div>
+            {% endif %}
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
