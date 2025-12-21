@@ -1,0 +1,614 @@
+,Fiyat,Mahalle,İlan Güncelleme Tarihi,Tipi,Net Metrekare,Brüt Metrekare,Binanın Kat Sayısı,Isıtma Tipi,Kullanım Durumu,Krediye Uygunluk,Tapu Durumu,Site İçerisinde,Eşya Durumu,Takas,Banyo Sayısı,WC Sayısı,Binanın Yaşı Num,Bulunduğu Kat Num,Salon Sayısı,Oda Sayısı Num,Toplam Oda Sayısı
+0,2600000.0,Tuna Mahallesi,2025-10-30,Daire,45.0,60.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,25.0,3,1.0,1.0,2.0
+1,2990000.0,Barbaros Mahallesi,2025-11-05,Daire,28.0,40.0,30.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,4.0,17,1.0,0.0,1.0
+2,3200000.0,Koşukavak Mahallesi,2025-11-25,Daire,90.0,92.0,5.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,2,1.0,2.0,3.0
+3,21000000.0,İnönü Mahallesi,2025-11-17,Bina,110.0,130.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Bilinmiyor,Kat Mülkiyeti,Hayır,,Yok,1.0,2.0,18.0,0,1.0,2.0,3.0
+4,3975000.0,Evka 3 Mahallesi,2025-11-26,Daire,75.0,80.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,3,1.0,2.0,3.0
+5,14950000.0,Evka 3 Mahallesi,2025-10-31,Daire,112.0,135.0,5.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,1.0,,0.0,2,1.0,3.0,4.0
+6,7650000.0,Egemenlik Mahallesi,2025-11-27,Müstakil Ev,100.0,144.0,1.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,0,1.0,3.0,4.0
+7,3900000.0,Çınar Mahallesi,2025-11-11,Daire,120.0,145.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,25.0,3,1.0,3.0,4.0
+8,3900000.0,Birlik Mahallesi,2025-11-05,Müstakil Ev,115.0,150.0,1.0,Klimalı,Kiracı Oturuyor,Krediye Uygun Değil,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,25.0,0,1.0,3.0,4.0
+9,4600000.0,Barbaros Mahallesi,2025-11-21,Daire,48.0,62.0,4.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,0.0,4,1.0,1.0,2.0
+10,15850000.0,Ergene Mahallesi,2025-11-25,Müstakil Ev,120.0,200.0,1.0,Merkezi Doğalgaz,Boş,Bilinmiyor,Müstakil Tapulu,Hayır,,Yok,1.0,,13.0,0,1.0,3.0,4.0
+11,14850000.0,Evka 3 Mahallesi,2025-10-31,Daire,112.0,135.0,5.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Var,1.0,,0.0,2,1.0,3.0,4.0
+12,3700000.0,Evka 4 Mahallesi,2025-11-18,Daire,100.0,105.0,8.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,18.0,0,1.0,3.0,4.0
+13,4200000.0,Gazi Osman Paşa Mahallesi,2025-11-26,Daire,100.0,110.0,3.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,3,1.0,2.0,3.0
+14,4250000.0,Kızılay Mahallesi,2025-11-27,Daire,80.0,90.0,2.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,7.0,0,1.0,1.0,2.0
+15,3700000.0,Kızılay Mahallesi,2025-11-17,Daire,77.0,85.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,7.0,1,1.0,2.0,3.0
+16,6380000.0,Ergene Mahallesi,2025-11-19,Daire,79.0,88.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,7.0,2,1.0,2.0,3.0
+17,5200000.0,Kemalpaşa Mahallesi,2025-11-26,Daire,150.0,300.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,13.0,4,1.0,3.0,4.0
+18,4000000.0,Kazımdirik Mahallesi,2025-11-20,Daire,80.0,85.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,25.0,3,1.0,2.0,3.0
+19,15000000.0,Doğanlar Mahallesi,2025-11-28,Müstakil Ev,120.0,130.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kooperatiften Tapu,Evet,,,1.0,,0.0,0,1.0,3.0,4.0
+20,5750000.0,Koşukavak Mahallesi,2025-11-03,Daire,75.0,89.0,24.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Var,2.0,,1.0,22,1.0,2.0,3.0
+21,12750000.0,Evka 3 Mahallesi,2025-11-20,Daire,180.0,220.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,18.0,2,1.0,4.0,5.0
+22,5450000.0,Atatürk Mahallesi,2025-11-28,Daire,80.0,90.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,3,1.0,2.0,3.0
+23,7760000.0,Erzene Mahallesi,2025-11-08,Daire,65.0,88.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,0.0,2,2.0,2.0,4.0
+24,14000000.0,Kızılay Mahallesi,2025-11-26,Daire,200.0,210.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,3.0,4,2.0,3.0,5.0
+25,3600000.0,İnönü Mahallesi,2025-11-28,Daire,80.0,85.0,3.0,Klimalı,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,2.0,,25.0,0,1.0,2.0,3.0
+26,4900000.0,Rafet Paşa Mahallesi,2025-10-30,Daire,40.0,60.0,25.0,VRV,Boş,Krediye Uygun,Kat İrtifakı,Evet,Eşyalı,Yok,1.0,,3.0,7,1.0,1.0,2.0
+27,,,,,,,,,,,,,,,,,,0,0.0,,
+28,5270000.0,Yeşilova Mahallesi,2025-11-26,Daire,175.0,200.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,25.0,5,1.0,4.0,5.0
+29,10800000.0,Atatürk Mahallesi,2025-11-06,Daire,150.0,170.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,7.0,3,1.0,4.0,5.0
+30,3500000.0,Erzene Mahallesi,2025-11-25,Daire,130.0,145.0,30.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,3.0,2.0,25.0,3,1.0,3.0,4.0
+31,6500000.0,Barbaros Mahallesi,2025-11-12,Daire,59.0,70.0,20.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Var,1.0,,0.0,2,1.0,2.0,3.0
+32,5500000.0,Doğanlar Mahallesi,2025-11-12,Daire,130.0,135.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,3,1.0,3.0,4.0
+33,4500000.0,Erzene Mahallesi,2025-11-14,Daire,110.0,120.0,5.0,Doğalgaz Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,25.0,2,1.0,3.0,4.0
+34,4250000.0,Erzene Mahallesi,2025-11-26,Daire,70.0,80.0,7.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,3,1.0,2.0,3.0
+35,5750000.0,Kazımdirik Mahallesi,2025-11-27,Daire,95.0,105.0,7.0,Klimalı,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,0.0,0,1.0,2.0,3.0
+36,2500000.0,Zafer Mahallesi,2025-11-27,Daire,75.0,85.0,1.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,3.0,4.0
+37,2600000.0,Meriç Mahallesi,2025-11-22,Daire,85.0,90.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+38,8000000.0,Erzene Mahallesi,2025-11-25,Müstakil Ev,120.0,150.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Bilinmiyor,Kat İrtifakı,Hayır,,Yok,1.0,,25.0,0,1.0,3.0,4.0
+39,2750000.0,Ergene Mahallesi,2025-11-26,Daire,77.0,89.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,25.0,0,0.0,2.0,2.0
+40,3650000.0,Kızılay Mahallesi,2025-11-26,Daire,77.0,85.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,7.0,0,1.0,2.0,3.0
+41,3990000.0,Kemalpaşa Mahallesi,2025-11-26,Daire,35.0,45.0,4.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,3,1.0,1.0,2.0
+42,10750000.0,Rafet Paşa Mahallesi,2025-11-27,Daire,145.0,183.0,16.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,2.0,,25.0,5,1.0,3.0,4.0
+43,3250000.0,Ümit Mahallesi,2025-11-04,Daire,55.0,60.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,0,1.0,2.0,3.0
+44,4250000.0,Mevlana Mahallesi,2025-11-11,Daire,40.0,50.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,5,1.0,1.0,2.0
+45,4500000.0,Gürpınar Mahallesi,2025-11-24,Daire,80.0,90.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Var,1.0,,1.0,0,1.0,2.0,3.0
+46,4299000.0,Koşukavak Mahallesi,2025-11-26,Daire,41.0,58.0,24.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Bilinmiyor,Kat İrtifakı,Hayır,,Var,1.0,,1.0,10,1.0,1.0,2.0
+47,2450000.0,Atatürk Mahallesi,2025-11-12,Daire,50.0,60.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,13.0,0,1.0,1.0,2.0
+48,8850000.0,Erzene Mahallesi,2025-11-27,Daire,135.0,142.0,8.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,8,1.0,3.0,4.0
+49,3150000.0,Erzene Mahallesi,2025-11-28,Daire,45.0,50.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kooperatiften Tapu,Evet,Boş,Yok,1.0,1.0,2.0,-2,1.0,1.0,2.0
+50,4750000.0,Çınar Mahallesi,2025-11-26,Müstakil Ev,50.0,56.0,3.0,Sobalı,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,25.0,0,1.0,1.0,2.0
+51,5800000.0,Atatürk Mahallesi,2025-11-22,Daire,57.0,67.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,7.0,1,1.0,2.0,3.0
+52,5500000.0,Atatürk Mahallesi,2025-11-05,Daire,72.0,90.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,0.0,2,1.0,2.0,3.0
+53,3200000.0,Birlik Mahallesi,2025-11-26,Daire,85.0,94.0,3.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,2,1.0,3.0,4.0
+54,3650000.0,Ümit Mahallesi,2025-11-03,Daire,65.0,71.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,1,1.0,2.0,3.0
+55,4500000.0,Kemalpaşa Mahallesi,2025-10-31,Daire,100.0,105.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,3,1.0,3.0,4.0
+56,23500000.0,Atatürk Mahallesi,2025-10-30,Villa,200.0,240.0,3.0,Yerden Isıtma,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,0.0,0,1.0,4.0,5.0
+57,17850000.0,Yakaköy Mahallesi,2025-11-19,Villa,300.0,400.0,2.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Hisseli Tapu,Hayır,Boş,Yok,2.0,,25.0,0,1.0,3.0,4.0
+58,11750000.0,Kazımdirik Mahallesi,2025-11-13,Daire,170.0,200.0,7.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,,,2.0,,13.0,7,1.0,3.0,4.0
+59,3800000.0,Çınar Mahallesi,2025-11-03,Müstakil Ev,100.0,110.0,2.0,Klimalı,Boş,Krediye Uygun,Müstakil Tapulu,Hayır,,,1.0,,18.0,0,1.0,3.0,4.0
+60,4950000.0,İnönü Mahallesi,2025-11-10,Daire,115.0,180.0,5.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kat Mülkiyeti,Hayır,,Yok,2.0,,25.0,0,1.0,3.0,4.0
+61,14000000.0,Ergene Mahallesi,2025-11-19,Daire,187.0,190.0,1.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,0,1.0,3.0,4.0
+62,23500000.0,Çiçekli Mahallesi,2025-11-27,Villa,135.0,150.0,1.0,Isı Pompası,Boş,Bilinmiyor,Hisseli Tapu,Hayır,,Var,2.0,,3.0,0,1.0,3.0,4.0
+63,3550000.0,Kızılay Mahallesi,2025-11-11,Daire,85.0,100.0,3.0,Klimalı,Boş,Bilinmiyor,Kat İrtifakı,Hayır,,Yok,1.0,,4.0,3,1.0,1.0,2.0
+64,2950000.0,Doğanlar Mahallesi,2025-11-27,Daire,95.0,110.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,0,1.0,2.0,3.0
+65,4250000.0,Atatürk Mahallesi,2025-11-26,Daire,110.0,120.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,25.0,4,1.0,3.0,4.0
+66,12000000.0,Kazımdirik Mahallesi,2025-11-26,Daire,85.0,97.0,13.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Eşyalı,Yok,2.0,,1.0,4,1.0,3.0,4.0
+67,5500000.0,Atatürk Mahallesi,2025-11-27,Daire,120.0,130.0,3.0,Isıtma Yok,Boş,Bilinmiyor,Kat İrtifakı,Hayır,,Yok,1.0,,25.0,3,1.0,3.0,4.0
+68,7850000.0,Yakaköy Mahallesi,2025-11-09,Müstakil Ev,60.0,75.0,1.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,,Yok,1.0,,25.0,0,1.0,2.0,3.0
+69,9950000.0,Erzene Mahallesi,2025-11-13,Daire,85.0,95.0,5.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Var,2.0,,0.0,2,1.0,1.0,2.0
+70,4750000.0,Zafer Mahallesi,2025-11-14,Müstakil Ev,100.0,128.0,1.0,Kombi Doğalgaz,Boş,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+71,4150000.0,Kazımdirik Mahallesi,2025-11-16,Daire,35.0,45.0,6.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Eşyalı,Yok,1.0,,7.0,3,1.0,0.0,1.0
+72,10500000.0,Meriç Mahallesi,2025-11-19,Daire,125.0,140.0,10.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,2.0,,4.0,2,1.0,3.0,4.0
+73,4250000.0,Kızılay Mahallesi,2025-11-03,Daire,48.0,55.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,1.0,0.0,3,1.0,1.0,2.0
+74,2550000.0,Zafer Mahallesi,2025-11-22,Daire,85.0,90.0,3.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+75,3300000.0,Sarnıçköy Mahallesi,2025-11-12,Müstakil Ev,120.0,256.0,2.0,Sobalı,Boş,Krediye Uygun Değil,Müstakil Tapulu,Hayır,,Yok,1.0,,25.0,0,1.0,2.0,3.0
+76,2600000.0,Tuna Mahallesi,2025-11-25,Daire,72.0,75.0,4.0,Merkezi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Hisseli Tapu,Hayır,,,1.0,,18.0,3,1.0,2.0,3.0
+77,14450000.0,Erzene Mahallesi,2025-10-30,Daire,200.0,250.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Yok,3.0,,13.0,4,1.0,3.0,4.0
+78,,,,,,,,,,,,,,,,,,0,0.0,,
+79,7500000.0,Ergene Mahallesi,2025-11-14,Daire,151.0,175.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,2.0,,25.0,5,1.0,3.0,4.0
+80,8149000.0,Kemalpaşa Mahallesi,2025-11-15,Daire,98.0,110.0,4.0,Yerden Isıtma,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,0.0,0,1.0,3.0,4.0
+81,2700000.0,Atatürk Mahallesi,2025-11-03,Daire,40.0,44.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,3,1.0,1.0,2.0
+82,7200000.0,Yeşilova Mahallesi,2025-11-03,Daire,97.0,123.0,14.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,7.0,13,1.0,2.0,3.0
+83,3350000.0,Gürpınar Mahallesi,2025-10-30,Daire,110.0,120.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,1.0,25.0,5,1.0,3.0,4.0
+84,5000000.0,Ergene Mahallesi,2025-11-21,Daire,127.0,140.0,8.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,25.0,7,1.0,3.0,4.0
+85,14800000.0,Erzene Mahallesi,2025-11-18,Daire,140.0,160.0,4.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,2.0,,18.0,3,1.0,3.0,4.0
+86,14000000.0,Kızılay Mahallesi,2025-11-27,Daire,215.0,240.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,3.0,,3.0,4,2.0,3.0,5.0
+87,4650000.0,Kazımdirik Mahallesi,2025-11-17,Daire,90.0,105.0,8.0,Isıtma Yok,Boş,Bilinmiyor,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,0,1.0,2.0,3.0
+88,3900000.0,Atatürk Mahallesi,2025-11-08,Daire,50.0,55.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,0.0,1,1.0,1.0,2.0
+89,6900000.0,Kazımdirik Mahallesi,2025-11-17,Daire,44.0,56.0,5.0,Merkezi (Pay Ölçer),Boş,Bilinmiyor,Kat Mülkiyeti,Hayır,,Yok,1.0,,4.0,2,1.0,1.0,2.0
+90,5500000.0,Kazımdirik Mahallesi,2025-11-25,Daire,31.0,55.0,8.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun Değil,Kat Mülkiyeti,Evet,Boş,Var,1.0,,0.0,3,1.0,1.0,2.0
+91,3450000.0,Atatürk Mahallesi,2025-11-15,Daire,80.0,85.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,,,1.0,,18.0,0,1.0,2.0,3.0
+92,4200000.0,Mevlana Mahallesi,2025-11-24,Daire,40.0,50.0,7.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,4.0,4,1.0,1.0,2.0
+93,7250000.0,Birlik Mahallesi,2025-11-18,Daire,120.0,135.0,13.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Evet,Boş,Var,2.0,,7.0,10,1.0,3.0,4.0
+94,3350000.0,Rafet Paşa Mahallesi,2025-11-27,Daire,85.0,90.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,7.0,5,1.0,2.0,3.0
+95,15000000.0,Evka 3 Mahallesi,2025-10-31,Daire,160.0,180.0,4.0,Klimalı,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,,,2.0,,13.0,3,1.0,4.0,5.0
+96,3600000.0,İnönü Mahallesi,2025-11-28,Daire,80.0,85.0,3.0,Klimalı,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,2.0,,25.0,0,1.0,2.0,3.0
+97,12500000.0,Kazımdirik Mahallesi,2025-11-07,Daire,85.0,120.0,12.0,Klimalı,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Var,2.0,,25.0,3,1.0,2.0,3.0
+98,3750000.0,Evka 4 Mahallesi,2025-11-17,Daire,75.0,80.0,9.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,1,1.0,2.0,3.0
+99,4300000.0,Kazımdirik Mahallesi,2025-11-20,Daire,105.0,110.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,3,1.0,3.0,4.0
+100,12750000.0,Barbaros Mahallesi,2025-11-26,Daire,135.0,145.0,36.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,,,2.0,,4.0,23,1.0,3.0,4.0
+101,2850000.0,Serintepe Mahallesi,2025-11-24,Müstakil Ev,265.0,280.0,4.0,Isıtma Yok,Kiracı Oturuyor,Bilinmiyor,Müstakil Tapulu,Hayır,,Yok,2.0,,25.0,0,1.0,2.0,3.0
+102,14850000.0,Erzene Mahallesi,2025-11-18,Daire,112.0,135.0,5.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Var,2.0,,0.0,3,1.0,3.0,4.0
+103,5300000.0,Birlik Mahallesi,2025-11-27,Bina,200.0,242.0,2.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Eşyalı,Yok,2.0,2.0,25.0,0,2.0,4.0,6.0
+104,4900000.0,Karacaoğlan Mahallesi,2025-11-07,Daire,118.0,130.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+105,9400000.0,Kazımdirik Mahallesi,2025-10-30,Daire,65.0,75.0,8.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun Değil,Kat İrtifakı,Evet,Boş,Yok,2.0,,1.0,1,1.0,2.0,3.0
+106,7500000.0,Mevlana Mahallesi,2025-11-17,Daire,150.0,180.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,4.0,2,1.0,3.0,4.0
+107,4350000.0,Kazımdirik Mahallesi,2025-11-25,Daire,98.0,105.0,4.0,Isıtma Yok,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,25.0,3,1.0,3.0,4.0
+108,5000000.0,Erzene Mahallesi,2025-11-26,Daire,73.0,82.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,0.0,5,1.0,2.0,3.0
+109,4250000.0,Mevlana Mahallesi,2025-11-13,Daire,40.0,50.0,6.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kat İrtifakı,Hayır,,Yok,1.0,,0.0,5,1.0,1.0,2.0
+110,3500000.0,Mevlana Mahallesi,2025-11-25,Daire,120.0,135.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,25.0,1,1.0,3.0,4.0
+111,4550000.0,Atatürk Mahallesi,2025-10-31,Müstakil Ev,75.0,85.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,,,1.0,,7.0,0,1.0,2.0,3.0
+112,11500000.0,Kızılay Mahallesi,2025-11-22,Villa,125.0,170.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,,0.0,0,1.0,4.0,5.0
+113,3950000.0,Gazi Osman Paşa Mahallesi,2025-10-30,Daire,75.0,80.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,25.0,0,1.0,2.0,3.0
+114,5550000.0,Erzene Mahallesi,2025-11-08,Daire,110.0,140.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,25.0,5,1.0,3.0,4.0
+115,5800000.0,Rafet Paşa Mahallesi,2025-11-14,Daire,110.0,120.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,,2.0,,18.0,2,1.0,2.0,3.0
+116,3250000.0,Birlik Mahallesi,2025-11-26,Daire,97.0,107.0,3.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,3,1.0,3.0,4.0
+117,3750000.0,Atatürk Mahallesi,2025-11-05,Daire,42.0,55.0,2.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kat İrtifakı,Hayır,Boş,Var,1.0,,0.0,2,1.0,1.0,2.0
+118,1300000.0,Kızılay Mahallesi,2025-11-03,Daire,37.0,55.0,1.0,Isıtma Yok,Boş,Bilinmiyor,Hisseli Tapu,Hayır,,,1.0,,25.0,0,1.0,1.0,2.0
+119,13000000.0,Egemenlik Mahallesi,2025-11-11,Müstakil Ev,750.0,800.0,3.0,Sobalı,Kiracı Oturuyor,Bilinmiyor,Arsa Tapulu,Hayır,,Yok,1.0,,25.0,0,1.0,2.0,3.0
+120,7750000.0,Erzene Mahallesi,2025-11-06,Daire,61.0,86.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,,1.0,1.0,0.0,2,1.0,2.0,3.0
+121,4650000.0,Atatürk Mahallesi,2025-11-01,Daire,98.0,100.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,2,1.0,3.0,4.0
+122,4000000.0,Kazımdirik Mahallesi,2025-11-05,Daire,95.0,110.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Var,1.0,,25.0,4,1.0,3.0,4.0
+123,3750000.0,Barbaros Mahallesi,2025-11-26,Daire,30.0,35.0,36.0,Merkezi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,,,1.0,,4.0,1,0.0,1.0,1.0
+124,3900000.0,Kızılay Mahallesi,2025-11-06,Daire,47.0,58.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,1.0,4.0,-2,1.0,1.0,2.0
+125,6600000.0,Çınar Mahallesi,2025-11-26,Müstakil Ev,100.0,107.0,3.0,Sobalı,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+126,8600000.0,Erzene Mahallesi,2025-11-08,Daire,88.0,98.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Eşyalı,Yok,2.0,,3.0,4,1.0,2.0,3.0
+127,5700000.0,Mevlana Mahallesi,2025-11-18,Daire,98.0,110.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,1.0,,7.0,1,1.0,3.0,4.0
+128,7750000.0,Kazımdirik Mahallesi,2025-10-30,Daire,150.0,170.0,8.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,,25.0,2,1.0,4.0,5.0
+129,2000000.0,Kızılay Mahallesi,2025-11-26,Daire,24.0,45.0,2.0,Isıtma Yok,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,2.0,0,1.0,0.0,1.0
+130,4250000.0,Kemalpaşa Mahallesi,2025-11-08,Daire,135.0,145.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,25.0,4,1.0,3.0,4.0
+131,4395000.0,Kemalpaşa Mahallesi,2025-11-13,Daire,56.0,62.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,1,1.0,2.0,3.0
+132,12000000.0,Ergene Mahallesi,2025-11-24,Bina,149.0,165.0,3.0,Kombi Doğalgaz,Boş,Bilinmiyor,Müstakil Tapulu,Hayır,Boş,Yok,0.0,,25.0,0,1.0,2.0,3.0
+133,5950000.0,Erzene Mahallesi,2025-11-27,Daire,127.0,135.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,5,1.0,3.0,4.0
+134,5000000.0,Yakaköy Mahallesi,2025-11-09,Müstakil Ev,90.0,500.0,1.0,Sobalı,Boş,Krediye Uygun Değil,Hisseli Tapu,Hayır,Eşyalı,Var,1.0,,2.0,0,1.0,2.0,3.0
+135,10900000.0,Rafet Paşa Mahallesi,2025-11-27,Daire,145.0,183.0,16.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,2.0,,25.0,6,1.0,3.0,4.0
+136,3900000.0,Kazımdirik Mahallesi,2025-11-19,Daire,30.0,45.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,25.0,3,1.0,1.0,2.0
+137,8250000.0,Kazımdirik Mahallesi,2025-11-10,Daire,46.0,58.0,28.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Bilinmiyor,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,2,1.0,1.0,2.0
+138,8750000.0,Kazımdirik Mahallesi,2025-11-18,Daire,80.0,85.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Yok,1.0,,25.0,2,1.0,2.0,3.0
+139,4750000.0,Tuna Mahallesi,2025-11-20,Bina,360.0,361.0,2.0,Klimalı,Boş,Bilinmiyor,Müstakil Tapulu,Hayır,,Yok,0.0,,25.0,0,1.0,3.0,4.0
+140,1800000.0,Merkez Mahallesi,2025-11-27,Müstakil Ev,120.0,130.0,1.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,2.0,3.0
+141,5175000.0,Kazımdirik Mahallesi,2025-11-03,Daire,45.0,60.0,7.0,VRV,Boş,Krediye Uygun,Kat İrtifakı,Evet,Eşyalı,Yok,1.0,,7.0,6,1.0,1.0,2.0
+142,3700000.0,Koşukavak Mahallesi,2025-11-03,Daire,120.0,149.0,3.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,0,1.0,3.0,4.0
+143,5950000.0,Erzene Mahallesi,2025-11-27,Daire,145.0,150.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,25.0,7,1.0,4.0,5.0
+144,4600000.0,Yıldırım Beyazıt Mahallesi,2025-11-14,Müstakil Ev,100.0,111.0,3.0,Klimalı,Kiracı Oturuyor,Bilinmiyor,Müstakil Tapulu,Hayır,,,1.0,,18.0,0,1.0,3.0,4.0
+145,3695000.0,Kazımdirik Mahallesi,2025-11-21,Daire,87.0,105.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,4,1.0,2.0,3.0
+146,4190000.0,Koşukavak Mahallesi,2025-11-20,Daire,41.0,58.0,24.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Bilinmiyor,Kat İrtifakı,Hayır,,Var,1.0,,1.0,12,1.0,1.0,2.0
+147,5250000.0,Kızılay Mahallesi,2025-11-22,Daire,125.0,135.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,3,1.0,2.0,3.0
+148,10600000.0,İnönü Mahallesi,2025-11-14,Daire,155.0,165.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,2.0,,25.0,3,1.0,3.0,4.0
+149,4800000.0,Erzene Mahallesi,2025-10-30,Daire,85.0,90.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Yok,2.0,,13.0,0,1.0,2.0,3.0
+150,4500000.0,Kızılay Mahallesi,2025-11-27,Daire,75.0,80.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,0.0,0,1.0,2.0,3.0
+151,6800000.0,Yeşilova Mahallesi,2025-10-24,Daire,80.0,90.0,9.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,2.0,,13.0,3,1.0,2.0,3.0
+152,3750000.0,Kızılay Mahallesi,2025-11-27,Daire,55.0,60.0,1.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,1,1.0,1.0,2.0
+153,3650000.0,Atatürk Mahallesi,2025-10-30,Daire,75.0,85.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,1.0,,18.0,0,1.0,2.0,3.0
+154,5750000.0,Doğanlar Mahallesi,2025-10-09,Daire,80.0,95.0,9.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,7.0,5,1.0,2.0,3.0
+155,6450000.0,Yeşilova Mahallesi,2025-11-19,Daire,100.0,115.0,9.0,Merkezi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,2.0,7.0,1,1.0,2.0,3.0
+156,25500000.0,Atatürk Mahallesi,2025-10-18,Villa,120.0,150.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,2.0,,3.0,0,1.0,4.0,5.0
+157,3300000.0,Yeşilova Mahallesi,,Daire,48.0,57.0,47.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Evet,,,1.0,,7.0,8,1.0,1.0,2.0
+158,7500000.0,Çınar Mahallesi,2025-10-16,Bina,95.0,109.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Müstakil Tapulu,Hayır,,Var,3.0,,25.0,0,3.0,6.0,9.0
+159,7750000.0,Kazımdirik Mahallesi,2025-10-24,Daire,65.0,70.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,4,1.0,2.0,3.0
+160,4500000.0,İnönü Mahallesi,2025-10-22,Daire,130.0,140.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,2.0,,13.0,-1,1.0,2.0,3.0
+161,3940000.0,Kızılay Mahallesi,,Daire,85.0,90.0,5.0,Isıtma Yok,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,0,1.0,2.0,3.0
+162,10750000.0,Atatürk Mahallesi,2025-11-25,Bina,200.0,300.0,2.0,Kombi Doğalgaz,Boş,Bilinmiyor,Arsa Tapulu,Hayır,Boş,Var,2.0,2.0,25.0,0,2.0,6.0,8.0
+163,4750000.0,Barbaros Mahallesi,2025-10-07,Daire,70.0,75.0,11.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,3,1.0,2.0,3.0
+164,4250000.0,Kızılay Mahallesi,2025-10-18,Daire,75.0,80.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,0.0,1,1.0,2.0,3.0
+165,6250000.0,Kazımdirik Mahallesi,2025-11-03,Daire,40.0,50.0,9.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,4.0,3,1.0,1.0,2.0
+166,3290000.0,Yeşilova Mahallesi,2025-11-20,Daire,50.0,62.0,9.0,Isıtma Yok,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,1.0,7.0,6,1.0,1.0,2.0
+167,5000000.0,Ergene Mahallesi,,Daire,128.0,140.0,8.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Evet,,,1.0,,25.0,7,1.0,3.0,4.0
+168,4260000.0,Rafet Paşa Mahallesi,2025-10-13,Daire,100.0,120.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,1,1.0,2.0,3.0
+169,14000000.0,Atatürk Mahallesi,2025-10-13,Villa,110.0,210.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,2.0,,0.0,0,1.0,3.0,4.0
+170,2990000.0,Barbaros Mahallesi,2025-10-09,Daire,28.0,40.0,30.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,4.0,17,1.0,0.0,1.0
+171,4200000.0,Yeşilova Mahallesi,,Daire,69.0,86.0,45.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,,,2.0,,7.0,8,1.0,2.0,3.0
+172,10000000.0,Yeşilova Mahallesi,,Daire,115.0,140.0,45.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,,,2.0,,7.0,25,1.0,3.0,4.0
+173,5500000.0,Kazımdirik Mahallesi,2025-11-27,Daire,90.0,105.0,8.0,Klimalı,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,0.0,0,1.0,2.0,3.0
+174,3350000.0,Doğanlar Mahallesi,2025-10-04,Daire,90.0,95.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,18.0,3,1.0,2.0,3.0
+175,4950000.0,Barbaros Mahallesi,,Daire,51.0,68.0,30.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,7.0,30,1.0,1.0,2.0
+176,4600000.0,Yakaköy Mahallesi,2025-10-08,Müstakil Ev,140.0,150.0,2.0,Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,2.0,0,1.0,4.0,5.0
+177,7350000.0,Mevlana Mahallesi,2025-10-10,Daire,120.0,130.0,7.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,7.0,7,1.0,3.0,4.0
+178,6150000.0,Ergene Mahallesi,2025-10-09,Daire,70.0,75.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,7.0,4,1.0,2.0,3.0
+179,4500000.0,Kazımdirik Mahallesi,2025-10-05,Daire,100.0,110.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,6,1.0,3.0,4.0
+180,3750000.0,Atatürk Mahallesi,2025-10-22,Daire,50.0,55.0,4.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,1.0,,0.0,2,1.0,1.0,2.0
+181,3900000.0,Yakaköy Mahallesi,2025-10-08,Müstakil Ev,140.0,150.0,2.0,Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Hisseli Tapu,Hayır,Eşyalı,Var,2.0,,2.0,0,1.0,3.0,4.0
+182,8500000.0,Erzene Mahallesi,2025-10-10,Daire,110.0,135.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Var,1.0,,25.0,0,1.0,3.0,4.0
+183,15500000.0,Çiçekli Mahallesi,2025-10-21,Villa,225.0,250.0,2.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Arsa Tapulu,Hayır,Boş,Yok,2.0,2.0,7.0,0,2.0,5.0,7.0
+184,3500000.0,Mevlana Mahallesi,2025-10-08,Daire,65.0,70.0,3.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Eşyalı,Var,1.0,,7.0,2,1.0,2.0,3.0
+185,3300000.0,Mevlana Mahallesi,2025-11-15,Daire,45.0,50.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,2,1.0,1.0,2.0
+186,1575000.0,Gürpınar Mahallesi,2025-10-08,Daire,90.0,110.0,4.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Arsa Tapulu,Hayır,Boş,Yok,1.0,,18.0,0,1.0,2.0,3.0
+187,2750000.0,Ergene Mahallesi,2025-10-13,Daire,72.0,85.0,5.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,1.0,25.0,0,1.0,2.0,3.0
+188,2250000.0,Gürpınar Mahallesi,2025-11-27,Daire,70.0,100.0,2.0,Isıtma Yok,Boş,Bilinmiyor,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,2,1.0,1.0,2.0
+189,2950000.0,Erzene Mahallesi,2025-10-01,Daire,60.0,65.0,4.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,25.0,2,1.0,2.0,3.0
+190,2990000.0,Zafer Mahallesi,2025-11-03,Daire,70.0,88.0,1.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,1,1.0,2.0,3.0
+191,4250000.0,Ergene Mahallesi,2025-11-28,Daire,90.0,105.0,4.0,Isıtma Yok,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,25.0,2,1.0,3.0,4.0
+192,19500000.0,Atatürk Mahallesi,,Villa,252.0,270.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,3.0,,25.0,0,2.0,7.0,9.0
+193,3600000.0,Yeşilova Mahallesi,,Daire,48.0,55.0,30.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,1.0,,7.0,25,1.0,1.0,2.0
+194,1600000.0,Serintepe Mahallesi,2025-11-06,Daire,68.0,71.0,3.0,Isıtma Yok,Boş,Krediye Uygun Değil,Hisseli Tapu,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+195,10500000.0,Yeşilova Mahallesi,2025-11-23,Daire,150.0,165.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,,18.0,1,1.0,4.0,5.0
+196,8500000.0,Erzene Mahallesi,2025-10-10,Daire,120.0,135.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,7.0,5,1.0,3.0,4.0
+197,4590000.0,Rafet Paşa Mahallesi,,Daire,36.0,60.0,25.0,VRV,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,1.0,,3.0,7,1.0,1.0,2.0
+198,2550000.0,Yakaköy Mahallesi,2025-10-19,Müstakil Ev,100.0,345.0,1.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Hisseli Tapu,Hayır,Boş,Yok,1.0,,7.0,0,1.0,2.0,3.0
+199,7750000.0,Gürpınar Mahallesi,2025-10-27,Daire,94.0,104.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,13.0,3,1.0,1.0,2.0
+200,11200000.0,Atatürk Mahallesi,2025-10-19,Müstakil Ev,140.0,165.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,0.0,0,1.0,4.0,5.0
+201,4750000.0,Atatürk Mahallesi,2025-11-29,Daire,110.0,120.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kooperatiften Tapu,Evet,,,1.0,,25.0,2,1.0,3.0,4.0
+202,20500000.0,Yeşilova Mahallesi,2025-10-10,Daire,150.0,170.0,24.0,Yerden Isıtma,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,2.0,,0.0,12,1.0,3.0,4.0
+203,2750000.0,Tuna Mahallesi,2025-11-07,Daire,90.0,95.0,3.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,1,1.0,2.0,3.0
+204,15500000.0,Çiçekli Mahallesi,2025-10-09,Müstakil Ev,225.0,250.0,2.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Hisseli Tapu,Hayır,Boş,Yok,2.0,,7.0,0,2.0,5.0,7.0
+205,3800000.0,Mevlana Mahallesi,2025-10-17,Daire,130.0,135.0,3.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,2,1.0,3.0,4.0
+206,11000000.0,Kazımdirik Mahallesi,2025-10-12,Daire,45.0,140.0,28.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,7.0,20,1.0,1.0,2.0
+207,20785000.0,Erzene Mahallesi,2025-10-08,Daire,118.0,152.0,4.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,0.0,2,1.0,3.0,4.0
+208,4400000.0,Atatürk Mahallesi,2025-10-16,Daire,100.0,109.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,4,1.0,2.0,3.0
+209,5400000.0,Erzene Mahallesi,2025-10-09,Daire,62.0,80.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,13.0,4,1.0,2.0,3.0
+210,4000000.0,Evka 4 Mahallesi,2025-11-20,Daire,95.0,98.0,8.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,3,1.0,3.0,4.0
+211,10900000.0,Atatürk Mahallesi,2025-10-05,Müstakil Ev,260.0,320.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,25.0,0,2.0,6.0,8.0
+212,5990000.0,Yeşilova Mahallesi,2025-10-18,Daire,45.0,65.0,9.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,1.0,,3.0,3,1.0,1.0,2.0
+213,3850000.0,Evka 4 Mahallesi,2025-10-14,Daire,100.0,110.0,9.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,1,1.0,3.0,4.0
+214,4950000.0,Kızılay Mahallesi,2025-10-23,Daire,100.0,120.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,,1.0,,25.0,4,1.0,3.0,4.0
+215,6250000.0,İnönü Mahallesi,2025-10-19,Daire,120.0,180.0,3.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kat Mülkiyeti,Hayır,,,2.0,,7.0,0,1.0,3.0,4.0
+216,3150000.0,Kızılay Mahallesi,2025-10-19,Daire,40.0,50.0,2.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Var,1.0,,7.0,2,1.0,1.0,2.0
+217,2500000.0,Kızılay Mahallesi,2025-10-24,Daire,65.0,70.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Hisseli Tapu,Hayır,Boş,Yok,1.0,,7.0,4,1.0,1.0,2.0
+218,4150000.0,İnönü Mahallesi,2025-11-27,Daire,80.0,85.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,,1.0,1.0,18.0,1,1.0,2.0,3.0
+219,9500000.0,Erzene Mahallesi,2025-10-01,Daire,85.0,95.0,5.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,0.0,2,1.0,1.0,2.0
+220,5000000.0,Erzene Mahallesi,2025-11-29,Müstakil Ev,120.0,125.0,20.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kooperatiften Tapu,Evet,Boş,Yok,1.0,1.0,18.0,0,1.0,3.0,4.0
+221,13250000.0,Erzene Mahallesi,,Villa,140.0,160.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Var,1.0,,25.0,0,1.0,3.0,4.0
+222,16250000.0,Yakaköy Mahallesi,2025-10-10,Müstakil Ev,240.0,630.0,2.0,Klimalı,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,2.0,2.0,25.0,0,1.0,4.0,5.0
+223,4000000.0,Atatürk Mahallesi,2025-10-09,Daire,70.0,90.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,18.0,0,1.0,2.0,3.0
+224,5400000.0,Yeşilova Mahallesi,,Daire,69.0,86.0,30.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,2.0,,7.0,25,1.0,2.0,3.0
+225,5200000.0,Kazımdirik Mahallesi,2025-11-27,Daire,110.0,115.0,5.0,Merkezi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,25.0,5,1.0,3.0,4.0
+226,6650000.0,Kazımdirik Mahallesi,2025-11-05,Daire,44.0,60.0,10.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,0.0,1,1.0,1.0,2.0
+227,11750000.0,Karacaoğlan Mahallesi,2025-11-26,Daire,110.0,157.0,20.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,2.0,,7.0,19,1.0,2.0,3.0
+228,3950000.0,Erzene Mahallesi,2025-10-10,Daire,110.0,120.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,7,1.0,3.0,4.0
+229,3450000.0,Mevlana Mahallesi,2025-11-28,Daire,45.0,50.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,0.0,0,1.0,1.0,2.0
+230,24790000.0,Erzene Mahallesi,2025-10-09,Daire,142.0,185.0,4.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,0.0,0,1.0,4.0,5.0
+231,6750000.0,Kızılay Mahallesi,2025-11-29,Daire,100.0,110.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kooperatiften Tapu,Hayır,,,1.0,,0.0,3,1.0,2.0,3.0
+232,8600000.0,Kazımdirik Mahallesi,2025-10-23,Daire,65.0,75.0,7.0,VRV,Boş,Krediye Uygun,Kat İrtifakı,Evet,Eşyalı,Yok,1.0,,4.0,2,1.0,2.0,3.0
+233,25000000.0,Mevlana Mahallesi,2025-10-16,Müstakil Ev,900.0,1.0,6.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Hisseli Tapu,Hayır,Boş,Var,2.0,,25.0,0,1.0,2.0,3.0
+234,10600000.0,Meriç Mahallesi,2025-10-13,Daire,122.0,179.0,9.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun Değil,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,3.0,5,1.0,3.0,4.0
+235,4200000.0,Barbaros Mahallesi,2025-10-09,Daire,55.0,60.0,13.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,0.0,1,1.0,1.0,2.0
+236,3050000.0,Ergene Mahallesi,2025-11-08,Daire,90.0,97.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,4,1.0,2.0,3.0
+237,2750000.0,Gürpınar Mahallesi,2025-10-27,Daire,70.0,84.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,13.0,2,1.0,1.0,2.0
+238,4300000.0,Koşukavak Mahallesi,2025-10-20,Daire,41.0,58.0,24.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Bilinmiyor,Kat İrtifakı,Hayır,,Var,1.0,,1.0,10,1.0,1.0,2.0
+239,4250000.0,Gazi Osman Paşa Mahallesi,2025-10-08,Daire,100.0,110.0,3.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,1.0,1.0,25.0,3,1.0,2.0,3.0
+240,14500000.0,Evka 3 Mahallesi,2025-11-26,Villa,180.0,220.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,4.0,5.0
+241,3250000.0,Zafer Mahallesi,2025-11-26,Residence,98.0,106.0,1.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Arsa Tapulu,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,3.0,4.0
+242,3450000.0,Erzene Mahallesi,2025-11-27,Daire,100.0,110.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,7.0,0,1.0,2.0,3.0
+243,5600000.0,Atatürk Mahallesi,2025-10-09,Daire,90.0,110.0,6.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,18.0,0,1.0,2.0,3.0
+244,8250000.0,Barbaros Mahallesi,2025-10-22,Daire,135.0,145.0,8.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,,13.0,5,1.0,3.0,4.0
+245,24125000.0,Erzene Mahallesi,2025-10-10,Daire,142.0,185.0,4.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,0.0,0,1.0,4.0,5.0
+246,3000000.0,Yeşilova Mahallesi,2025-10-09,Daire,40.0,46.0,45.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,0.0,8,1.0,0.0,1.0
+247,4400000.0,Erzene Mahallesi,2025-11-29,Daire,90.0,95.0,6.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,25.0,1,1.0,2.0,3.0
+248,7900000.0,Yeşilova Mahallesi,2025-10-09,Daire,115.0,140.0,45.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,2.0,,0.0,8,1.0,3.0,4.0
+249,4950000.0,Kazımdirik Mahallesi,2025-11-05,Daire,60.0,68.0,7.0,VRV,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Var,1.0,,7.0,3,1.0,1.0,2.0
+250,5250000.0,Atatürk Mahallesi,2025-11-29,Daire,110.0,130.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kooperatiften Tapu,Evet,,,1.0,,25.0,3,1.0,2.0,3.0
+251,4250000.0,Kazımdirik Mahallesi,,Daire,30.0,40.0,8.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Var,2.0,,7.0,2,1.0,0.0,1.0
+252,3250000.0,Mevlana Mahallesi,2025-11-26,Daire,55.0,65.0,2.0,Klimalı,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Eşyalı,Yok,1.0,,7.0,2,1.0,1.0,2.0
+253,2400000.0,Gürpınar Mahallesi,2025-11-26,Daire,70.0,84.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,13.0,1,1.0,1.0,2.0
+254,4500000.0,Mevlana Mahallesi,2025-10-09,Daire,100.0,115.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,13.0,1,1.0,3.0,4.0
+255,5500000.0,Atatürk Mahallesi,2025-11-27,Daire,97.0,100.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,18.0,3,1.0,3.0,4.0
+256,5600000.0,Atatürk Mahallesi,2025-10-16,Daire,95.0,100.0,3.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,13.0,0,1.0,3.0,4.0
+257,5200000.0,Kazımdirik Mahallesi,,Daire,45.0,65.0,7.0,VRV,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,7.0,2,1.0,1.0,2.0
+258,4000000.0,Mevlana Mahallesi,2025-10-18,Daire,120.0,130.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,25.0,2,1.0,2.0,3.0
+259,4600000.0,Yıldırım Beyazıt Mahallesi,2025-10-06,Daire,59.0,70.0,1.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,7.0,1,1.0,2.0,3.0
+260,1699999.0,İnönü Mahallesi,2025-11-07,Daire,40.0,90.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,18.0,0,1.0,1.0,2.0
+261,3700000.0,Gazi Osman Paşa Mahallesi,,Müstakil Ev,80.0,126.0,1.0,Isıtma Yok,Boş,Krediye Uygun Değil,Arsa Tapulu,Hayır,Boş,Yok,1.0,,25.0,0,1.0,1.0,2.0
+262,7900000.0,Yeşilova Mahallesi,2025-10-01,Daire,115.0,140.0,45.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Evet,,,2.0,,0.0,8,1.0,3.0,4.0
+263,7900000.0,Ümit Mahallesi,2025-10-16,Müstakil Ev,400.0,440.0,4.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Var,2.0,,25.0,0,1.0,2.0,3.0
+264,4000000.0,Atatürk Mahallesi,2025-11-05,Daire,100.0,105.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,18.0,0,1.0,3.0,4.0
+265,2800000.0,Koşukavak Mahallesi,2025-10-07,Daire,90.0,92.0,5.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,1,1.0,2.0,3.0
+266,5750000.0,Çınar Mahallesi,,Müstakil Ev,230.0,260.0,3.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Arsa Tapulu,Hayır,Boş,Yok,3.0,,25.0,0,3.0,6.0,9.0
+267,11850000.0,Karacaoğlan Mahallesi,2025-11-27,Bina,399.0,400.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Bilinmiyor,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,2.0,3.0
+268,3250000.0,Mevlana Mahallesi,2025-11-27,Daire,50.0,55.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,0.0,1,1.0,1.0,2.0
+269,6750000.0,Kazımdirik Mahallesi,2025-11-08,Daire,125.0,150.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,,1.0,,25.0,6,1.0,3.0,4.0
+270,7550000.0,Gazi Osman Paşa Mahallesi,2025-10-11,Daire,150.0,160.0,9.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Var,2.0,,7.0,4,1.0,3.0,4.0
+271,6500000.0,Mevlana Mahallesi,2025-10-08,Daire,110.0,120.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,,4.0,1,1.0,3.0,4.0
+272,18000000.0,Atatürk Mahallesi,,Villa,160.0,210.0,3.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,3.0,,0.0,0,1.0,3.0,4.0
+273,4250000.0,Gazi Osman Paşa Mahallesi,2025-10-24,Daire,110.0,120.0,3.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,3,1.0,2.0,3.0
+274,12950000.0,Yeşilova Mahallesi,,Daire,135.0,190.0,23.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,1.0,,1.0,13,1.0,3.0,4.0
+275,5450000.0,Erzene Mahallesi,2025-10-03,Daire,45.0,59.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,2,1.0,2.0,3.0
+276,6500000.0,Doğanlar Mahallesi,2025-10-08,Bina,100.0,110.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,18.0,0,1.0,3.0,4.0
+277,6575000.0,Kazımdirik Mahallesi,2025-10-18,Daire,43.0,60.0,10.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,1.0,9,1.0,1.0,2.0
+278,21000000.0,Atatürk Mahallesi,,Villa,200.0,240.0,3.0,Yerden Isıtma,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,0.0,0,1.0,4.0,5.0
+279,4200000.0,Kazımdirik Mahallesi,2025-10-24,Daire,100.0,120.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,6,1.0,3.0,4.0
+280,2885000.0,Kızılay Mahallesi,2025-11-26,Daire,38.0,44.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Var,1.0,,7.0,0,1.0,1.0,2.0
+281,4250000.0,Koşukavak Mahallesi,2025-10-07,Daire,41.0,58.0,24.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Evet,Boş,Var,1.0,,1.0,12,1.0,1.0,2.0
+282,13750000.0,Karaçam Mahallesi,2025-10-24,Villa,160.0,1.053,2.0,Klimalı,Boş,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,2.0,,25.0,0,2.0,4.0,6.0
+283,7250000.0,Kazımdirik Mahallesi,2025-11-27,Daire,78.0,90.0,7.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Var,1.0,,7.0,1,1.0,2.0,3.0
+284,4850000.0,Kazımdirik Mahallesi,,Daire,40.0,55.0,7.0,VRV,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,7.0,4,1.0,1.0,2.0
+285,4550000.0,Rafet Paşa Mahallesi,2025-11-11,Daire,36.0,60.0,25.0,VRV,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,3.0,3,1.0,1.0,2.0
+286,2645000.0,Ümit Mahallesi,2025-10-16,Daire,95.0,100.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,1,1.0,2.0,3.0
+287,5925000.0,Kazımdirik Mahallesi,2025-10-12,Daire,90.0,110.0,7.0,Merkezi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,,1.0,,25.0,6,1.0,3.0,4.0
+288,5400000.0,Kızılay Mahallesi,2025-11-27,Daire,100.0,110.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,7.0,3,1.0,3.0,4.0
+289,4000000.0,Mevlana Mahallesi,2025-11-27,Daire,80.0,85.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,13.0,2,1.0,2.0,3.0
+290,3800000.0,Kazımdirik Mahallesi,2025-10-09,Daire,81.0,95.0,7.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Var,1.0,,25.0,1,1.0,2.0,3.0
+291,4600000.0,Erzene Mahallesi,2025-11-27,Daire,47.0,57.0,4.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kat İrtifakı,Hayır,Boş,Var,1.0,,3.0,1,1.0,1.0,2.0
+292,3950000.0,Atatürk Mahallesi,2025-10-22,Daire,50.0,55.0,4.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,1.0,,0.0,2,1.0,1.0,2.0
+293,4950000.0,Atatürk Mahallesi,2025-11-06,Daire,65.0,80.0,4.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,0.0,0,1.0,2.0,3.0
+294,3000000.0,Yeşilova Mahallesi,2025-10-09,Daire,40.0,46.0,45.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Evet,,,1.0,,0.0,8,1.0,0.0,1.0
+295,27000000.0,İnönü Mahallesi,2025-11-26,Bina,110.0,380.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,,1.0,,25.0,0,1.0,3.0,4.0
+296,4150000.0,İnönü Mahallesi,2025-11-27,Daire,80.0,85.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,18.0,2,1.0,2.0,3.0
+297,4650000.0,Erzene Mahallesi,2025-10-20,Daire,70.0,80.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Yok,1.0,,7.0,2,1.0,2.0,3.0
+298,4500000.0,İnönü Mahallesi,2025-11-18,Daire,100.0,120.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,18.0,4,1.0,3.0,4.0
+299,3150000.0,Mevlana Mahallesi,2025-10-10,Daire,40.0,45.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,0,1.0,1.0,2.0
+300,4450000.0,Yakaköy Mahallesi,2025-10-30,Müstakil Ev,75.0,90.0,1.0,Sobalı,Mülk Sahibi Oturuyor,Bilinmiyor,Hisseli Tapu,Hayır,Boş,Var,1.0,,3.0,0,1.0,2.0,3.0
+301,3195000.0,Doğanlar Mahallesi,2025-10-23,Daire,65.0,75.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,0.0,6,1.0,2.0,3.0
+302,4250000.0,Erzene Mahallesi,2025-10-20,Daire,98.0,120.0,5.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,1.0,25.0,3,1.0,3.0,4.0
+303,18500000.0,Evka 3 Mahallesi,2025-10-20,Daire,150.0,165.0,12.0,Yerden Isıtma,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Var,2.0,,0.0,11,1.0,3.0,4.0
+304,13000000.0,İnönü Mahallesi,2025-11-29,Daire,125.0,150.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,3.0,3.0,0.0,0,1.0,3.0,4.0
+305,4800000.0,Mevlana Mahallesi,,Daire,70.0,84.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,2,1.0,2.0,3.0
+306,7500000.0,Serintepe Mahallesi,2025-10-16,Bina,130.0,145.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,,Var,3.0,,25.0,0,3.0,6.0,9.0
+307,1925000.0,Çamkule Mahallesi,2025-10-08,Daire,85.0,100.0,3.0,Sobalı,Boş,Krediye Uygun,Arsa Tapulu,Hayır,Boş,Var,1.0,,13.0,2,1.0,2.0,3.0
+308,5500000.0,Kazımdirik Mahallesi,2025-11-14,Daire,128.0,135.0,8.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,,1.0,,25.0,5,1.0,3.0,4.0
+309,10000000.0,Atatürk Mahallesi,2025-10-10,Müstakil Ev,135.0,150.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,0,1.0,3.0,4.0
+310,4500000.0,İnönü Mahallesi,2025-10-13,Daire,110.0,120.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,,1.0,1.0,25.0,3,1.0,3.0,4.0
+311,18465000.0,Erzene Mahallesi,2025-10-08,Daire,118.0,152.0,4.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,0.0,0,1.0,3.0,4.0
+312,2400000.0,Gürpınar Mahallesi,2025-10-27,Daire,70.0,84.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,13.0,3,1.0,1.0,2.0
+313,3950000.0,Kızılay Mahallesi,2025-11-27,Daire,85.0,90.0,5.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,0.0,0,1.0,2.0,3.0
+314,3490000.0,Evka 4 Mahallesi,2025-11-10,Daire,75.0,80.0,9.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,5,1.0,2.0,3.0
+315,7500000.0,Naldöken Mahallesi,2025-11-10,Daire,182.0,240.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,,1.0,,4.0,2,1.0,2.0,3.0
+316,4300000.0,İnönü Mahallesi,2025-10-05,Daire,100.0,110.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,18.0,3,1.0,3.0,4.0
+317,6500000.0,Atatürk Mahallesi,2025-10-16,Daire,100.0,110.0,3.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,13.0,1,1.0,3.0,4.0
+318,4150000.0,Kazımdirik Mahallesi,2025-10-13,Daire,130.0,140.0,8.0,Merkezi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,0,1.0,3.0,4.0
+319,3950000.0,Kızılay Mahallesi,,Daire,80.0,150.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+320,3500000.0,Mevlana Mahallesi,2025-11-27,Daire,40.0,45.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,0,1.0,1.0,2.0
+321,13000000.0,Yeşilova Mahallesi,,Daire,90.0,110.0,23.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Evet,Eşyalı,Var,2.0,,1.0,9,1.0,2.0,3.0
+322,11200000.0,Atatürk Mahallesi,2025-10-21,Müstakil Ev,126.0,206.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,0,1.0,3.0,4.0
+323,19456000.0,Erzene Mahallesi,2025-10-09,Daire,118.0,152.0,4.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,0.0,1,1.0,3.0,4.0
+324,5450000.0,Koşukavak Mahallesi,2025-10-20,Daire,75.0,90.0,24.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Var,2.0,,1.0,24,1.0,2.0,3.0
+325,4990000.0,Ergene Mahallesi,2025-11-22,Daire,106.0,120.0,6.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,3,1.0,3.0,4.0
+326,5500000.0,Kazımdirik Mahallesi,2025-10-10,Daire,110.0,125.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,3,1.0,3.0,4.0
+327,4050000.0,Kazımdirik Mahallesi,2025-10-17,Daire,40.0,45.0,7.0,Merkezi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,,Yok,1.0,,2.0,1,1.0,1.0,2.0
+328,7000000.0,Evka 3 Mahallesi,2025-10-31,Daire,100.0,110.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,2,1.0,3.0,4.0
+329,4100000.0,Kazımdirik Mahallesi,2025-10-08,Daire,45.0,53.0,7.0,VRV,Kiracı Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Evet,Boş,Yok,1.0,,4.0,4,1.0,1.0,2.0
+330,6000000.0,Yakaköy Mahallesi,2025-10-24,Müstakil Ev,120.0,160.0,2.0,Şömine,Boş,Krediye Uygun Değil,Arsa Tapulu,Hayır,Boş,Yok,1.0,,7.0,0,1.0,2.0,3.0
+331,15750000.0,İnönü Mahallesi,2025-11-29,Müstakil Ev,120.0,130.0,1.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kooperatiften Tapu,Evet,Boş,Yok,1.0,1.0,13.0,0,1.0,3.0,4.0
+332,5500000.0,Barbaros Mahallesi,2025-10-07,Daire,64.0,75.0,13.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,0.0,7,1.0,2.0,3.0
+333,4550000.0,Yeşilova Mahallesi,2025-10-24,Daire,130.0,135.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,25.0,4,1.0,3.0,4.0
+334,5250000.0,Kızılay Mahallesi,,Daire,100.0,105.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,7.0,1,1.0,3.0,4.0
+335,12000000.0,Atatürk Mahallesi,2025-10-10,Daire,245.0,255.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,2.0,,18.0,0,2.0,5.0,7.0
+336,2630000.0,Birlik Mahallesi,2025-11-27,Müstakil Ev,60.0,121.0,2.0,Klimalı,Mülk Sahibi Oturuyor,Bilinmiyor,Hisseli Tapu,Hayır,Eşyalı,Yok,1.0,1.0,25.0,0,1.0,2.0,3.0
+337,8900000.0,Yeşilova Mahallesi,2025-11-07,Daire,145.0,165.0,9.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,13.0,7,1.0,3.0,4.0
+338,4500000.0,Erzene Mahallesi,2025-11-27,Daire,115.0,125.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,5,1.0,3.0,4.0
+339,4250000.0,Kazımdirik Mahallesi,2025-10-07,Daire,115.0,120.0,7.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,7,1.0,3.0,4.0
+340,7500000.0,Serintepe Mahallesi,2025-11-23,Bina,240.0,315.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,0,1.0,2.0,3.0
+341,13000000.0,Yeşilova Mahallesi,2025-11-07,Daire,130.0,190.0,23.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Hayır,,,2.0,,0.0,13,1.0,3.0,4.0
+342,12950000.0,Yeşilova Mahallesi,2025-10-08,Daire,135.0,190.0,23.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,1.0,,1.0,13,1.0,3.0,4.0
+343,5300000.0,Barbaros Mahallesi,2025-10-24,Daire,70.0,92.0,14.0,Kombi Doğalgaz,Boş,Bilinmiyor,Müstakil Tapulu,Hayır,Boş,Var,1.0,,0.0,9,1.0,2.0,3.0
+344,6750000.0,Yakaköy Mahallesi,,Müstakil Ev,94.0,475.0,1.0,Klimalı,Boş,Krediye Uygun Değil,Müstakil Tapulu,Hayır,Boş,Var,2.0,,0.0,0,1.0,2.0,3.0
+345,11000000.0,Yıldırım Beyazıt Mahallesi,2025-11-26,Müstakil Ev,100.0,120.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,0,1.0,3.0,4.0
+346,4800000.0,Kazımdirik Mahallesi,,Daire,90.0,95.0,8.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,7,1.0,3.0,4.0
+347,4750000.0,Kazımdirik Mahallesi,2025-11-15,Daire,50.0,55.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,2,1.0,1.0,2.0
+348,6250000.0,Mevlana Mahallesi,2025-10-23,Daire,85.0,113.0,7.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,7.0,1,1.0,2.0,3.0
+349,4150000.0,Ergene Mahallesi,2025-10-27,Daire,79.0,85.0,3.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,1,1.0,2.0,3.0
+350,8500000.0,Kazımdirik Mahallesi,2025-10-27,Daire,70.0,74.0,15.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,7.0,1,1.0,2.0,3.0
+351,14750000.0,İnönü Mahallesi,,Villa,180.0,220.0,3.0,Yerden Isıtma,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,3.0,,0.0,0,1.0,4.0,5.0
+352,15950000.0,İnönü Mahallesi,,Villa,160.0,220.0,3.0,Yerden Isıtma,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,,,2.0,,0.0,0,1.0,4.0,5.0
+353,2450000.0,Koşukavak Mahallesi,2025-10-07,Daire,90.0,92.0,5.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+354,5750000.0,Doğanlar Mahallesi,2025-11-29,Daire,100.0,120.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,2.0,0.0,0,1.0,3.0,4.0
+355,5000000.0,Barbaros Mahallesi,2025-11-05,Residence,56.0,88.0,30.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,4.0,16,1.0,1.0,2.0
+356,4250000.0,Gürpınar Mahallesi,2025-11-03,Daire,66.0,85.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,1,1.0,2.0,3.0
+357,6750000.0,Yeşilova Mahallesi,,Daire,64.0,75.0,9.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,7.0,8,1.0,1.0,2.0
+358,7400000.0,Meriç Mahallesi,2025-10-13,Daire,95.0,110.0,9.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,2.0,4.0,5,1.0,2.0,3.0
+359,4250000.0,Erzene Mahallesi,2025-11-29,Daire,110.0,117.0,6.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kooperatiften Tapu,Hayır,,Yok,1.0,1.0,25.0,3,1.0,3.0,4.0
+360,14950000.0,Rafet Paşa Mahallesi,,Daire,180.0,200.0,12.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,7.0,12,1.0,3.0,4.0
+361,14950000.0,Kazımdirik Mahallesi,2025-11-07,Daire,113.0,125.0,8.0,Yerden Isıtma,Boş,Bilinmiyor,Kat İrtifakı,Hayır,Boş,Yok,2.0,,0.0,7,1.0,3.0,4.0
+362,7800000.0,Kazımdirik Mahallesi,2025-10-24,Daire,35.0,56.0,28.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,4.0,4,1.0,1.0,2.0
+363,4350000.0,İnönü Mahallesi,2025-11-09,Daire,100.0,111.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,1.0,25.0,2,1.0,3.0,4.0
+364,3850000.0,Meriç Mahallesi,2025-11-27,Müstakil Ev,159.0,160.0,1.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,3.0,4.0
+365,15800000.0,Kazımdirik Mahallesi,2025-11-26,Daire,120.0,145.0,7.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,7.0,7,1.0,3.0,4.0
+366,1690000.0,Yakaköy Mahallesi,2025-10-14,Müstakil Ev,90.0,350.0,1.0,Isıtma Yok,Boş,Krediye Uygun Değil,Hisseli Tapu,Hayır,Boş,Var,1.0,,0.0,0,1.0,2.0,3.0
+367,24000000.0,Yeşilova Mahallesi,,Daire,175.0,210.0,24.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,3.0,,1.0,20,1.0,4.0,5.0
+368,7900000.0,Barbaros Mahallesi,2025-11-08,Daire,127.0,142.0,11.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,0.0,8,1.0,3.0,4.0
+369,14500000.0,Kızılay Mahallesi,2025-11-10,Müstakil Ev,100.0,399.0,1.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+370,26500000.0,Atatürk Mahallesi,2025-11-14,Bina,600.0,650.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,5.0,5.0,25.0,0,,,
+371,5900000.0,Kazımdirik Mahallesi,,Daire,25.0,37.0,9.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,7.0,6,1.0,0.0,1.0
+372,5250000.0,Evka 3 Mahallesi,2025-10-31,Daire,40.0,180.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Evet,,Var,1.0,,0.0,1,1.0,1.0,2.0
+373,6500000.0,Kızılay Mahallesi,2025-10-15,Daire,113.0,138.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,2.0,,0.0,1,1.0,3.0,4.0
+374,3700000.0,Kızılay Mahallesi,2025-10-24,Daire,86.0,140.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+375,80000000.0,Kazımdirik Mahallesi,2025-11-24,Villa,290.0,350.0,4.0,Yerden Isıtma,Boş,Krediye Uygun,Müstakil Tapulu,Evet,,Var,4.0,,0.0,0,2.0,5.0,7.0
+376,3850000.0,Kazımdirik Mahallesi,2025-11-03,Daire,110.0,130.0,5.0,Klimalı,Boş,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,18.0,4,1.0,3.0,4.0
+377,5000000.0,Evka 4 Mahallesi,,Daire,100.0,110.0,8.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,18.0,8,1.0,2.0,3.0
+378,5000000.0,Barbaros Mahallesi,2025-11-05,Residence,56.0,88.0,30.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,4.0,16,1.0,1.0,2.0
+379,14000000.0,Yeşilova Mahallesi,2025-10-31,Daire,122.0,175.0,30.0,Yerden Isıtma,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,0.0,16,1.0,3.0,4.0
+380,3650000.0,Çamkule Mahallesi,2025-11-07,Bina,95.0,96.0,3.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Arsa Tapulu,Hayır,,,1.0,,25.0,0,1.0,2.0,3.0
+381,3950000.0,Doğanlar Mahallesi,,Daire,38.0,58.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,0.0,0,1.0,1.0,2.0
+382,4100000.0,İnönü Mahallesi,,Daire,70.0,80.0,5.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kat Mülkiyeti,Evet,,Var,1.0,1.0,18.0,2,1.0,2.0,3.0
+383,3500000.0,Barbaros Mahallesi,2025-10-24,Daire,40.0,50.0,14.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,0.0,2,1.0,1.0,2.0
+384,3750000.0,Mevlana Mahallesi,2025-11-29,Müstakil Ev,70.0,80.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kooperatiften Tapu,Hayır,,,1.0,1.0,13.0,0,1.0,2.0,3.0
+385,5650000.0,Zafer Mahallesi,2025-10-24,Daire,150.0,158.0,3.0,Isıtma Yok,Boş,Krediye Uygun,Arsa Tapulu,Hayır,,,0.0,,25.0,0,2.0,4.0,6.0
+386,7150000.0,Kazımdirik Mahallesi,,Daire,120.0,130.0,4.0,Klimalı,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,,Yok,1.0,,13.0,0,1.0,3.0,4.0
+387,4600000.0,Evka 4 Mahallesi,2025-10-31,Daire,75.0,78.0,10.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,13.0,10,1.0,2.0,3.0
+388,7500000.0,Yeşilova Mahallesi,2025-10-24,Daire,52.0,78.0,30.0,Yerden Isıtma,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Var,1.0,,0.0,17,1.0,2.0,3.0
+389,2300000.0,Zafer Mahallesi,2025-11-24,Daire,110.0,135.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.5,3.5
+390,3950000.0,Zafer Mahallesi,,Daire,78.0,90.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,4.0,3,1.0,2.0,3.0
+391,6500000.0,Rafet Paşa Mahallesi,2025-10-26,Residence,45.0,62.0,25.0,VRV,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Eşyalı,Yok,1.0,,7.0,7,1.0,1.0,2.0
+392,2600000.0,Mevlana Mahallesi,2025-11-29,Müstakil Ev,50.0,60.0,4.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kooperatiften Tapu,Evet,,,1.0,1.0,7.0,0,1.0,1.0,2.0
+393,2985000.0,Barbaros Mahallesi,,Daire,28.0,34.0,30.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Eşyalı,Yok,1.0,,4.0,14,1.0,0.0,1.0
+394,4600000.0,Kazımdirik Mahallesi,2025-11-28,Daire,120.0,125.0,8.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,4,1.0,3.0,4.0
+395,4000000.0,Kazımdirik Mahallesi,2025-10-30,Daire,110.0,120.0,8.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Yok,1.0,,25.0,0,1.0,3.0,4.0
+396,6750000.0,Tuna Mahallesi,2025-11-24,Daire,110.0,125.0,14.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,2.0,,7.0,6,1.0,3.0,4.0
+397,4750000.0,Çınar Mahallesi,2025-11-26,Müstakil Ev,100.0,112.0,3.0,Sobalı,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,3.0,,25.0,0,1.0,3.0,4.0
+398,3000000.0,Mevlana Mahallesi,2025-11-28,Daire,90.0,100.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,13.0,4,1.0,2.0,3.0
+399,5150000.0,İnönü Mahallesi,2025-10-01,Daire,135.0,140.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,18.0,3,1.0,3.0,4.0
+400,13550000.0,Evka 3 Mahallesi,2025-11-08,Villa,185.0,245.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,25.0,0,1.0,4.0,5.0
+401,3975000.0,Egemenlik Mahallesi,,Daire,125.0,150.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,25.0,1,1.0,3.0,4.0
+402,14900000.0,Kazımdirik Mahallesi,,Daire,110.0,120.0,8.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,2.0,,1.0,1,1.0,3.0,4.0
+403,13400000.0,Mevlana Mahallesi,2025-11-26,Bina,440.0,530.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,0,1.0,3.0,4.0
+404,4100000.0,Kızılay Mahallesi,2025-10-30,Daire,70.0,75.0,3.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,,1.0,,0.0,2,1.0,2.0,3.0
+405,4100000.0,Mevlana Mahallesi,,Daire,36.0,40.0,5.0,Klimalı,Kiracı Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Var,1.0,,2.0,2,1.0,1.0,2.0
+406,6900000.0,Yeşilova Mahallesi,2025-11-27,Residence,90.0,133.0,30.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,2.0,,0.0,30,1.0,2.0,3.0
+407,3600000.0,Atatürk Mahallesi,,Daire,80.0,85.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,2.0,,18.0,0,1.0,2.0,3.0
+408,5400000.0,Erzene Mahallesi,2025-11-29,Daire,120.0,130.0,7.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,1.0,25.0,7,1.0,3.0,4.0
+409,8000000.0,Tuna Mahallesi,2025-11-06,Daire,118.0,161.0,14.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Evet,Boş,Yok,2.0,,7.0,5,1.0,3.0,4.0
+410,4800000.0,Kazımdirik Mahallesi,2025-11-29,Müstakil Ev,100.0,110.0,8.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kooperatiften Tapu,Hayır,Boş,Var,1.0,1.0,18.0,0,1.0,2.0,3.0
+411,12500000.0,Atatürk Mahallesi,2025-11-27,Müstakil Ev,98.0,100.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,,,1.0,,25.0,0,1.0,2.0,3.0
+412,4000000.0,İnönü Mahallesi,,Daire,100.0,110.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,1.0,,18.0,3,1.0,3.0,4.0
+413,9800000.0,İnönü Mahallesi,2025-10-13,Müstakil Ev,270.0,293.0,2.0,Kombi Doğalgaz,Kiracı Oturuyor,Bilinmiyor,Müstakil Tapulu,Hayır,,Yok,2.0,,25.0,0,2.0,6.0,8.0
+414,4250000.0,Zafer Mahallesi,2025-11-07,Bina,89.0,90.0,3.0,Isıtma Yok,Mülk Sahibi Oturuyor,Bilinmiyor,Arsa Tapulu,Hayır,,,1.0,,25.0,0,1.0,2.0,3.0
+415,7800000.0,Kazımdirik Mahallesi,,Daire,65.0,72.0,8.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,2.0,1,1.0,2.0,3.0
+416,10500000.0,Kazımdirik Mahallesi,2025-11-13,Daire,110.0,130.0,7.0,Merkezi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,,,2.0,,7.0,7,1.0,3.0,4.0
+417,4650000.0,Yeşilova Mahallesi,2025-11-26,Daire,72.0,85.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,0.0,0,1.0,2.0,3.0
+418,4175000.0,Kazımdirik Mahallesi,2025-10-31,Daire,90.0,110.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,25.0,1,1.0,2.0,3.0
+419,1500000.0,Atatürk Mahallesi,2025-11-04,Daire,28.0,30.0,4.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,0,0.0,1.0,1.0
+420,9100000.0,Ergene Mahallesi,2025-10-02,Daire,100.0,130.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Eşyalı,Var,1.0,,3.0,4,1.0,3.0,4.0
+421,2850000.0,Mevlana Mahallesi,2025-11-27,Daire,50.0,60.0,4.0,Kombi Doğalgaz,Boş,Bilinmiyor,Kat Mülkiyeti,Hayır,,Var,1.0,,18.0,3,1.0,1.0,2.0
+422,6650000.0,Kazımdirik Mahallesi,2025-11-05,Daire,44.0,60.0,10.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,0.0,6,1.0,1.0,2.0
+423,6400000.0,Kazımdirik Mahallesi,,Daire,37.0,45.0,8.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,1.0,,2.0,2,1.0,1.0,2.0
+424,5750000.0,Koşukavak Mahallesi,2025-10-27,Daire,75.0,89.0,24.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,1.0,22,1.0,2.0,3.0
+425,4400000.0,Atatürk Mahallesi,,Daire,100.0,106.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,2,1.0,3.0,4.0
+426,5300000.0,Erzene Mahallesi,2025-11-25,Daire,120.0,125.0,4.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,1,1.0,3.0,4.0
+427,14000000.0,Kazımdirik Mahallesi,2025-10-20,Daire,155.0,191.0,15.0,Merkezi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,2.0,7.0,1,1.0,3.0,4.0
+428,2750000.0,Atatürk Mahallesi,,Daire,40.0,44.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,18.0,2,1.0,1.0,2.0
+429,8975000.0,Kemalpaşa Mahallesi,,Daire,120.0,135.0,3.0,Yerden Isıtma,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Evet,Boş,Var,2.0,,0.0,1,1.0,3.0,4.0
+430,3100000.0,Doğanlar Mahallesi,2025-11-27,Daire,50.0,55.0,6.0,Yerden Isıtma,Kiracı Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,1.0,,4.0,2,1.0,1.0,2.0
+431,6950000.0,Kazımdirik Mahallesi,2025-11-10,Daire,62.0,85.0,8.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,0.0,8,1.0,2.0,3.0
+432,3800000.0,Rafet Paşa Mahallesi,,Daire,90.0,110.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,3,1.0,2.0,3.0
+433,4100000.0,Kazımdirik Mahallesi,,Daire,45.0,55.0,7.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,1.0,7,1.0,1.0,2.0
+434,6000000.0,Yıldırım Beyazıt Mahallesi,2025-11-26,Müstakil Ev,100.0,110.0,3.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,,,3.0,,18.0,0,1.0,2.0,3.0
+435,4925000.0,Rafet Paşa Mahallesi,2025-10-27,Müstakil Ev,164.0,165.0,1.0,Sobalı,Boş,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+436,5650000.0,Barbaros Mahallesi,2025-10-24,Daire,85.0,101.0,13.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,0.0,5,1.0,2.0,3.0
+437,3650000.0,Doğanlar Mahallesi,2025-11-27,Daire,36.0,45.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,1.0,0.0,0,1.0,1.0,2.0
+438,2800000.0,Barbaros Mahallesi,2025-10-24,Müstakil Ev,90.0,100.0,1.0,Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Var,1.0,,25.0,0,1.0,2.0,3.0
+439,4250000.0,Erzene Mahallesi,,Daire,110.0,120.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,18.0,5,1.0,2.0,3.0
+440,20500000.0,Evka 3 Mahallesi,,Daire,145.0,185.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,,0.0,2,1.0,3.0,4.0
+441,3050000.0,Ergene Mahallesi,2025-10-14,Daire,100.0,121.0,4.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,7.0,-2,1.0,2.0,3.0
+442,4750000.0,Barbaros Mahallesi,2025-11-05,Daire,55.0,88.0,30.0,Merkezi (Pay Ölçer),Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,4.0,16,1.0,1.0,2.0
+443,4500000.0,Kazımdirik Mahallesi,,Daire,37.0,48.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,4.0,3,1.0,1.0,2.0
+444,5000000.0,Atatürk Mahallesi,2025-11-17,Daire,90.0,100.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Var,1.0,1.0,18.0,3,1.0,2.0,3.0
+445,8750000.0,Kazımdirik Mahallesi,2025-11-08,Daire,76.0,117.0,15.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,1.0,,7.0,13,1.0,2.0,3.0
+446,3100000.0,Mevlana Mahallesi,2025-11-19,Daire,40.0,45.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,0.0,0,1.0,1.0,2.0
+447,7250000.0,Kazımdirik Mahallesi,2025-11-27,Daire,95.0,115.0,4.0,Doğalgaz Sobalı,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,2.0,2.0,7.0,0,1.0,3.0,4.0
+448,4400000.0,Kazımdirik Mahallesi,2025-10-31,Daire,85.0,105.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,25.0,1,1.0,2.0,3.0
+449,3950000.0,Atatürk Mahallesi,2025-11-29,Müstakil Ev,135.0,140.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kooperatiften Tapu,Hayır,Boş,Yok,1.0,1.0,18.0,0,1.0,3.0,4.0
+450,11300000.0,Kazımdirik Mahallesi,2025-10-27,Daire,70.0,120.0,28.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,7.0,14,1.0,2.0,3.0
+451,10750000.0,Kazımdirik Mahallesi,2025-11-08,Daire,105.0,130.0,7.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,2.0,,0.0,4,1.0,3.0,4.0
+452,13750000.0,Atatürk Mahallesi,,Villa,160.0,180.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,0.0,0,1.0,4.0,5.0
+453,6900000.0,Kazımdirik Mahallesi,,Daire,50.0,60.0,8.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,1.0,,1.0,1,1.0,1.0,2.0
+454,5280000.0,Mevlana Mahallesi,2025-11-08,Daire,130.0,140.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,,18.0,5,1.0,3.0,4.0
+455,3450000.0,Kızılay Mahallesi,2025-11-29,Müstakil Ev,110.0,120.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,3.0,4.0
+456,8150000.0,Atatürk Mahallesi,2025-10-24,Daire,110.0,120.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,7.0,3,1.0,3.0,4.0
+457,5390000.0,Erzene Mahallesi,2025-11-07,Daire,77.0,90.0,7.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,,,1.0,,4.0,0,1.0,2.0,3.0
+458,5600000.0,Ergene Mahallesi,,Daire,65.0,70.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,7.0,3,1.0,2.0,3.0
+459,3500000.0,Erzene Mahallesi,2025-11-10,Daire,115.0,120.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,13.0,0,1.0,3.0,4.0
+460,7249000.0,Erzene Mahallesi,2025-11-26,Daire,120.0,130.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,3,1.0,3.0,4.0
+461,4500000.0,İnönü Mahallesi,2025-11-27,Daire,100.0,111.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,2,1.0,3.0,4.0
+462,5150000.0,İnönü Mahallesi,,Daire,135.0,140.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,18.0,3,1.0,3.0,4.0
+463,14100000.0,Erzene Mahallesi,2025-10-27,Daire,112.0,130.0,5.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,0.0,3,1.0,3.0,4.0
+464,9000000.0,Barbaros Mahallesi,2025-10-24,Daire,120.0,140.0,16.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Evet,,,2.0,,7.0,1,1.0,3.0,4.0
+465,5450000.0,Atatürk Mahallesi,2025-11-29,Daire,80.0,90.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,3,1.0,2.0,3.0
+466,1750000.0,İnönü Mahallesi,2025-10-02,Daire,48.0,50.0,1.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,13.0,1,1.0,1.0,2.0
+467,4250000.0,Kazımdirik Mahallesi,2025-11-27,Daire,80.0,90.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,7.0,2,1.0,2.0,3.0
+468,3890000.0,Kazımdirik Mahallesi,2025-11-26,Daire,120.0,135.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,25.0,0,1.0,3.0,4.0
+469,44000000.0,Kazımdirik Mahallesi,2025-11-08,Villa,230.0,250.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,18.0,0,1.0,4.0,5.0
+470,3850000.0,Kemalpaşa Mahallesi,2025-11-27,Daire,50.0,58.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,2,1.0,1.0,2.0
+471,13500000.0,Ergene Mahallesi,2025-10-24,Daire,190.0,220.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,3.0,,13.0,2,1.0,4.0,5.0
+472,3400000.0,Evka 4 Mahallesi,,Daire,62.0,67.0,5.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Yok,1.0,,25.0,1,1.0,2.0,3.0
+473,4000000.0,Ergene Mahallesi,2025-11-27,Daire,55.0,65.0,6.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,7.0,0,1.0,1.0,2.0
+474,2950000.0,Barbaros Mahallesi,2025-10-28,Daire,110.0,122.0,3.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,2,1.0,3.0,4.0
+475,5100000.0,İnönü Mahallesi,2025-10-15,Daire,135.0,140.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Evet,,,1.0,,18.0,4,1.0,3.0,4.0
+476,5850000.0,Erzene Mahallesi,2025-11-20,Daire,100.0,120.0,8.0,Merkezi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,25.0,6,1.0,3.0,4.0
+477,3350000.0,Erzene Mahallesi,2025-11-27,Daire,86.0,90.0,6.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,3,1.0,2.0,3.0
+478,4100000.0,İnönü Mahallesi,,Daire,78.0,80.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,18.0,3,1.0,2.0,3.0
+479,6250000.0,Kızılay Mahallesi,2025-10-05,Daire,110.0,120.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,2.0,,7.0,2,1.0,3.0,4.0
+480,3990000.0,Meriç Mahallesi,2025-11-20,Müstakil Ev,150.0,155.0,2.0,Klimalı,Mülk Sahibi Oturuyor,Bilinmiyor,Hisseli Tapu,Hayır,Boş,Yok,2.0,2.0,25.0,0,1.0,4.0,5.0
+481,39999999.0,Kızılay Mahallesi,2025-11-27,Villa,375.0,750.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,,4.0,,7.0,0,1.0,7.0,8.0
+482,6750000.0,Erzene Mahallesi,2025-11-29,Daire,75.0,80.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,1.0,3.0,5,1.0,2.0,3.0
+483,6900000.0,Kazımdirik Mahallesi,,Daire,45.0,50.0,8.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,1.0,,1.0,0,1.0,1.0,2.0
+484,11000000.0,Mevlana Mahallesi,2025-10-27,Daire,180.0,200.0,5.0,Sobalı,Kiracı Oturuyor,Bilinmiyor,Arsa Tapulu,Hayır,Boş,Yok,1.0,1.0,25.0,3,1.0,2.0,3.0
+485,6400000.0,Kazımdirik Mahallesi,2025-11-04,Daire,38.0,50.0,15.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,1.0,7.0,4,1.0,1.0,2.0
+486,2750000.0,Zafer Mahallesi,2025-11-26,Daire,106.0,115.0,3.0,Sobalı,Kiracı Oturuyor,Bilinmiyor,Hisseli Tapu,Hayır,,,1.0,,25.0,-1,1.0,3.0,4.0
+487,4250000.0,İnönü Mahallesi,,Daire,100.0,110.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,18.0,4,1.0,3.0,4.0
+488,5250000.0,Barbaros Mahallesi,,Daire,48.0,57.0,30.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat İrtifakı,Evet,Eşyalı,Yok,1.0,,4.0,12,1.0,1.0,2.0
+489,3400000.0,Kızılay Mahallesi,2025-10-24,Daire,44.0,54.0,5.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,7.0,1,1.0,1.0,2.0
+490,4250000.0,Atatürk Mahallesi,2025-11-21,Daire,78.0,80.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,13.0,2,1.0,2.0,3.0
+491,8800000.0,Erzene Mahallesi,2025-11-15,Daire,100.0,120.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,4.0,3,1.0,2.0,3.0
+492,9100000.0,Atatürk Mahallesi,2025-10-31,Daire,153.0,173.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,,,2.0,,25.0,4,1.0,3.0,4.0
+493,4150000.0,Mevlana Mahallesi,2025-11-07,Daire,75.0,84.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,,,1.0,,0.0,3,1.0,2.0,3.0
+494,3500000.0,Rafet Paşa Mahallesi,,Daire,100.0,130.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,0,1.0,2.0,3.0
+495,5500000.0,Kazımdirik Mahallesi,2025-11-29,Daire,45.0,50.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Eşyalı,Yok,1.0,1.0,0.0,2,1.0,1.0,2.0
+496,13000000.0,Yeşilova Mahallesi,2025-11-27,Daire,130.0,160.0,9.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,2.0,2.0,13.0,8,1.0,3.0,4.0
+497,7850000.0,Yakaköy Mahallesi,2025-10-31,Müstakil Ev,60.0,75.0,1.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Tapu Kaydı Yok,Hayır,,Yok,1.0,,25.0,0,1.0,2.0,3.0
+498,14000000.0,Evka 3 Mahallesi,,Daire,160.0,180.0,8.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,25.0,7,1.0,3.0,4.0
+499,2800000.0,Evka 4 Mahallesi,2025-10-02,Daire,65.0,66.0,6.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,2,1.0,2.0,3.0
+500,15500000.0,Yeşilova Mahallesi,,Daire,130.0,160.0,24.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Var,2.0,,1.0,18,1.0,3.0,4.0
+501,4350000.0,Kazımdirik Mahallesi,2025-11-28,Daire,120.0,125.0,8.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Yok,1.0,,25.0,1,1.0,3.0,4.0
+502,15000000.0,Kızılay Mahallesi,2025-11-20,Müstakil Ev,97.0,197.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Var,3.0,,18.0,0,2.0,5.0,7.0
+503,4000000.0,Mevlana Mahallesi,2025-11-28,Daire,120.0,130.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,25.0,2,1.0,2.0,3.0
+504,3300000.0,Mevlana Mahallesi,2025-11-15,Daire,40.0,45.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,,,1.0,,0.0,2,1.0,1.0,2.0
+505,10000000.0,Atatürk Mahallesi,2025-11-25,Daire,120.0,130.0,5.0,Yerden Isıtma,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,2.0,,0.0,4,1.0,3.0,4.0
+506,3000000.0,Kızılay Mahallesi,2025-11-17,Daire,40.0,60.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,18.0,3,1.0,1.0,2.0
+507,5750000.0,Kazımdirik Mahallesi,,Daire,125.0,140.0,8.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,25.0,6,1.0,3.0,4.0
+508,3225000.0,Mevlana Mahallesi,2025-11-15,Daire,45.0,50.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Eşyalı,Yok,1.0,,0.0,0,1.0,1.0,2.0
+509,3100000.0,Yakaköy Mahallesi,2025-10-02,Müstakil Ev,115.0,200.0,1.0,Sobalı,Kiracı Oturuyor,Krediye Uygun Değil,Hisseli Tapu,Hayır,Eşyalı,Yok,1.0,,7.0,0,1.0,2.0,3.0
+510,10500000.0,Yeşilova Mahallesi,2025-10-02,Daire,148.0,178.0,10.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,2.0,,13.0,1,1.0,3.0,4.0
+511,6750000.0,Erzene Mahallesi,2025-11-29,Daire,180.0,190.0,6.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,2.0,25.0,6,1.0,4.0,5.0
+512,5500000.0,Yakaköy Mahallesi,,Müstakil Ev,150.0,340.0,2.0,Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Hisseli Tapu,Hayır,Boş,Yok,2.0,2.0,2.0,0,1.0,4.0,5.0
+513,3650000.0,Koşukavak Mahallesi,2025-11-27,Daire,90.0,135.0,3.0,Doğalgaz Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,7.0,30,1.0,2.0,3.0
+514,4850000.0,Kızılay Mahallesi,2025-10-20,Daire,124.0,130.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,13.0,2,1.0,3.0,4.0
+515,8000000.0,Tuna Mahallesi,2025-10-31,Daire,135.0,162.0,14.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,2.0,,7.0,5,1.0,3.0,4.0
+516,4850000.0,Kızılay Mahallesi,2025-10-23,Daire,120.0,125.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,,1.0,2.0,13.0,2,1.0,3.0,4.0
+517,6700000.0,Mevlana Mahallesi,2025-11-06,Daire,150.0,160.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Tapu Kaydı Yok,Hayır,Boş,Yok,2.0,,7.0,0,1.0,3.0,4.0
+518,3100000.0,Kemalpaşa Mahallesi,,Daire,100.0,110.0,2.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,0,1.0,3.0,4.0
+519,4100000.0,Kemalpaşa Mahallesi,,Daire,110.0,126.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,18.0,1,1.0,3.0,4.0
+520,9300000.0,Erzene Mahallesi,2025-11-29,Daire,135.0,147.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Var,1.0,2.0,7.0,5,1.0,3.0,4.0
+521,4500000.0,Atatürk Mahallesi,2025-11-29,Daire,100.0,110.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,2.0,25.0,1,1.0,2.0,3.0
+522,20900000.0,Evka 3 Mahallesi,,Daire,240.0,300.0,9.0,Doğalgaz Sobalı,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,2.0,,18.0,9,2.0,4.0,6.0
+523,4250000.0,Doğanlar Mahallesi,2025-11-29,Daire,77.0,80.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Evet,Boş,Yok,1.0,1.0,0.0,3,1.0,2.0,3.0
+524,4650000.0,Yakaköy Mahallesi,2025-10-25,Müstakil Ev,60.0,500.0,1.0,Sobalı,Boş,Krediye Uygun,Hisseli Tapu,Hayır,Eşyalı,Var,1.0,,1.0,0,1.0,2.0,3.0
+525,4200000.0,Evka 3 Mahallesi,2025-10-03,Daire,38.0,42.0,5.0,Yerden Isıtma,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Var,1.0,,0.0,4,1.0,1.0,2.0
+526,5500000.0,Yakaköy Mahallesi,2025-11-25,Villa,200.0,250.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Hisseli Tapu,Hayır,Boş,Var,1.0,,1.0,0,1.0,3.0,4.0
+527,3250000.0,Yeşilova Mahallesi,2025-11-27,Daire,38.0,60.0,38.0,VRV,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,,,1.0,,0.0,15,1.0,1.0,2.0
+528,6000000.0,Birlik Mahallesi,2025-11-27,Bina,115.0,116.0,4.0,Isıtma Yok,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,,,3.0,,25.0,0,,,
+529,4600000.0,Kazımdirik Mahallesi,2025-11-01,Daire,80.0,90.0,7.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,3,1.0,2.0,3.0
+530,5000000.0,Tuna Mahallesi,2025-11-10,Bina,350.0,360.0,3.0,Klimalı,Kiracı Oturuyor,Bilinmiyor,Müstakil Tapulu,Hayır,,,1.0,,25.0,0,1.0,3.0,4.0
+531,4850000.0,Kızılay Mahallesi,2025-10-20,Daire,124.0,130.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,2.0,13.0,30,1.0,3.0,4.0
+532,5200000.0,Serintepe Mahallesi,2025-10-11,Müstakil Ev,110.0,121.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Eşyalı,Yok,1.0,1.0,25.0,0,1.0,2.0,3.0
+533,2050000.0,Meriç Mahallesi,2025-11-26,Daire,80.0,85.0,4.0,Klimalı,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,4,1.0,1.0,2.0
+534,10100000.0,İnönü Mahallesi,,Daire,165.0,170.0,4.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,,7.0,3,1.0,4.0,5.0
+535,2100000.0,Barbaros Mahallesi,2025-10-01,Daire,70.0,80.0,3.0,Klimalı,Kiracı Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Yok,1.0,,25.0,2,1.0,2.0,3.0
+536,15850000.0,Sarnıçköy Mahallesi,2025-10-02,Müstakil Ev,160.0,260.0,3.0,Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun,Arsa Tapulu,Hayır,Boş,Var,2.0,,25.0,0,1.0,4.0,5.0
+537,5800000.0,Yıldırım Beyazıt Mahallesi,2025-11-23,Müstakil Ev,180.0,220.0,2.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Arsa Tapulu,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,5.0,6.0
+538,3390000.0,Zafer Mahallesi,2025-10-27,Müstakil Ev,120.0,170.0,2.0,Sobalı,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Yok,1.0,,25.0,0,1.0,2.0,3.0
+539,17000000.0,Evka 3 Mahallesi,2025-11-29,Daire,144.0,168.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,2.0,3.0,0,1.0,3.0,4.0
+540,8300000.0,Kemalpaşa Mahallesi,2025-10-05,Daire,100.0,110.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,,,3.0,,0.0,0,1.0,3.0,4.0
+541,5500000.0,Doğanlar Mahallesi,2025-11-29,Daire,110.0,125.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,2.0,2.0,0.0,2,1.0,2.0,3.0
+542,3800000.0,Evka 3 Mahallesi,2025-11-28,Daire,50.0,64.0,2.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,4.0,2,1.0,1.0,2.0
+543,3150000.0,Birlik Mahallesi,2025-11-27,Daire,95.0,105.0,3.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,25.0,2,1.0,3.0,4.0
+544,3250000.0,Birlik Mahallesi,2025-11-08,Müstakil Ev,80.0,95.0,1.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun,Bilinmiyor,Hayır,Boş,Yok,1.0,1.0,25.0,0,1.0,2.0,3.0
+545,9500000.0,Rafet Paşa Mahallesi,2025-11-01,Residence,75.0,128.0,25.0,Klimalı,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,1.0,21,1.0,2.0,3.0
+546,3975000.0,Gazi Osman Paşa Mahallesi,2025-10-31,Daire,80.0,90.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,Yok,1.0,,13.0,3,1.0,2.0,3.0
+547,3900000.0,Koşukavak Mahallesi,2025-11-27,Daire,90.0,92.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,2.0,25.0,4,1.0,2.0,3.0
+548,8500000.0,Kemalpaşa Mahallesi,2025-10-05,Daire,110.0,120.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,2.0,,0.0,3,1.0,3.0,4.0
+549,18750000.0,Yakaköy Mahallesi,2025-10-01,Müstakil Ev,224.0,300.0,2.0,Kat Kaloriferi,Mülk Sahibi Oturuyor,Krediye Uygun Değil,Arsa Tapulu,Hayır,,Yok,3.0,,1.0,0,1.0,4.0,5.0
+550,4700000.0,Doğanlar Mahallesi,2025-11-29,Daire,73.0,83.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,1.0,0.0,3,1.0,2.0,3.0
+551,5000000.0,Yakaköy Mahallesi,2025-10-31,Müstakil Ev,90.0,500.0,1.0,Sobalı,Boş,Krediye Uygun Değil,Hisseli Tapu,Hayır,Eşyalı,Var,1.0,,2.0,0,1.0,2.0,3.0
+552,5500000.0,Erzene Mahallesi,2025-11-27,Daire,75.0,80.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Bilinmiyor,Hayır,Boş,Yok,1.0,,0.0,2,1.0,2.0,3.0
+553,8700000.0,İnönü Mahallesi,2025-11-27,Bina,224.0,225.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Müstakil Tapulu,Hayır,,Var,0.0,,25.0,0,0.0,1.0,1.0
+554,4200000.0,Kemalpaşa Mahallesi,2025-10-05,Daire,50.0,55.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Evet,,,1.0,,0.0,3,1.0,1.0,2.0
+555,6750000.0,Gazi Osman Paşa Mahallesi,2025-10-30,Bina,400.0,464.0,4.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,,Var,3.0,,25.0,0,,,
+556,4900000.0,Atatürk Mahallesi,2025-11-07,Daire,58.0,68.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,,1.0,0.0,2,1.0,2.0,3.0
+557,1800000.0,Kızılay Mahallesi,2025-11-06,Daire,28.0,32.0,2.0,Isıtma Yok,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,,2.0,0,1.0,0.0,1.0
+558,33000000.0,İnönü Mahallesi,2025-11-27,Daire,115.0,125.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,,,1.0,,18.0,5,1.0,3.0,4.0
+559,21500000.0,İnönü Mahallesi,2025-11-29,Daire,500.0,550.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,18.0,5,1.0,3.0,4.0
+560,7500000.0,Doğanlar Mahallesi,2025-11-28,Bina,359.0,360.0,3.0,Isıtma Yok,Boş,Krediye Uygun,Bilinmiyor,Hayır,,Yok,0.0,,25.0,0,0.0,1.0,1.0
+561,8000000.0,Meriç Mahallesi,2025-10-14,Müstakil Ev,300.0,350.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Var,3.0,,25.0,0,3.0,5.0,8.0
+562,12000000.0,Ergene Mahallesi,,Bina,68.0,75.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,1.0,1.0,25.0,0,1.0,2.0,3.0
+563,7850000.0,Yakaköy Mahallesi,2025-10-31,Müstakil Ev,60.0,75.0,1.0,Isıtma Yok,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,,25.0,0,1.0,2.0,3.0
+564,5500000.0,Erzene Mahallesi,2025-11-29,Daire,50.0,55.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Bilinmiyor,Hayır,Boş,,1.0,,0.0,4,1.0,1.0,2.0
+565,6850000.0,Doğanlar Mahallesi,2025-11-06,Daire,110.0,140.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,25.0,0,1.0,4.0,5.0
+566,10500000.0,Yeşilova Mahallesi,2025-11-27,Bina,90.0,105.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Hisseli Tapu,Hayır,Boş,,1.0,1.0,25.0,0,1.0,2.0,3.0
+567,3500000.0,Yeşilova Mahallesi,2025-10-09,Daire,110.0,127.0,2.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Tapu Kaydı Yok,Hayır,,,1.0,1.0,25.0,0,1.0,3.0,4.0
+568,7150000.0,Doğanlar Mahallesi,2025-11-15,Daire,125.0,130.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,1.0,25.0,4,1.0,3.0,4.0
+569,6000000.0,Kazımdirik Mahallesi,2025-11-28,Daire,55.0,65.0,7.0,VRV,Kiracı Oturuyor,Krediye Uygun Değil,Kat İrtifakı,Evet,Boş,Yok,1.0,,0.0,3,1.0,2.0,3.0
+570,3500000.0,Yıldırım Beyazıt Mahallesi,2025-11-26,Müstakil Ev,100.0,105.0,2.0,Doğalgaz Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,,,1.0,,25.0,0,1.0,2.0,3.0
+571,12000000.0,Doğanlar Mahallesi,2025-11-28,Daire,330.0,360.0,3.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,1.0,1.0,2.0,2,1.0,3.0,4.0
+572,4900000.0,Atatürk Mahallesi,2025-11-07,Daire,65.0,80.0,3.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,1.0,1.0,0.0,2,1.0,2.0,3.0
+573,10000000.0,Mevlana Mahallesi,2025-11-29,Daire,160.0,400.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,2.0,2.0,7.0,2,1.0,4.0,5.0
+574,3400000.0,İnönü Mahallesi,2025-11-25,Daire,107.0,181.0,3.0,Klimalı,Kiracı Oturuyor,Bilinmiyor,Kat Mülkiyeti,Hayır,Eşyalı,Yok,1.0,1.0,25.0,2,1.0,3.0,4.0
+575,3750000.0,İnönü Mahallesi,2025-11-06,Daire,110.0,120.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,1.0,1.0,18.0,3,1.0,2.0,3.0
+576,2600000.0,Yeşilova Mahallesi,2025-10-24,Residence,28.0,41.0,38.0,VRV,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,,,1.0,,0.0,9,1.0,0.0,1.0
+577,5275000.0,Ergene Mahallesi,2025-11-29,Daire,85.0,90.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kooperatiften Tapu,Hayır,,,1.0,1.0,1.0,5,1.0,2.0,3.0
+578,5690000.0,Merkez Mahallesi,2025-11-23,Müstakil Ev,100.0,135.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Bilinmiyor,Müstakil Tapulu,Hayır,Boş,,1.0,2.0,18.0,0,1.0,2.0,3.0
+579,12000000.0,Birlik Mahallesi,2025-11-27,Bina,90.0,109.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Bilinmiyor,Arsa Tapulu,Hayır,Boş,Var,1.0,2.0,25.0,0,1.0,2.0,3.0
+580,4850000.0,Kızılay Mahallesi,2025-10-27,Daire,120.0,150.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,0.0,30,1.0,3.0,4.0
+581,65000000.0,Kazımdirik Mahallesi,2025-11-05,Müstakil Ev,450.0,580.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,3.0,3.0,0.0,0,1.0,5.0,6.0
+582,4000000.0,Mevlana Mahallesi,2025-11-29,Daire,80.0,82.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,1.0,0.0,1,1.0,2.0,3.0
+583,6000000.0,Ergene Mahallesi,2025-11-28,Daire,72.0,82.0,5.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,1.0,,3.0,3,1.0,2.0,3.0
+584,14499999.0,Atatürk Mahallesi,2025-11-05,Müstakil Ev,150.0,180.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,2.0,,0.0,0,1.0,4.0,5.0
+585,2260000.0,Işıklar Mahallesi,2025-10-10,Daire,110.0,120.0,2.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,2.0,13.0,2,1.0,2.0,3.0
+586,6800000.0,Yeşilova Mahallesi,,Daire,97.0,125.0,14.0,Merkezi (Pay Ölçer),Kiracı Oturuyor,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Yok,2.0,,4.0,12,1.0,2.0,3.0
+587,2700000.0,Yeşilova Mahallesi,2025-11-28,Daire,90.0,112.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,25.0,0,1.0,2.0,3.0
+588,3850000.0,Kızılay Mahallesi,,Daire,79.0,80.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun Değil,Kat Mülkiyeti,Hayır,Boş,Var,1.0,,0.0,0,1.0,2.0,3.0
+589,5000000.0,Yakaköy Mahallesi,2025-10-31,Müstakil Ev,90.0,500.0,1.0,Sobalı,Boş,Krediye Uygun Değil,Hisseli Tapu,Hayır,Eşyalı,Var,1.0,,2.0,0,1.0,2.0,3.0
+590,111000000.0,Kazımdirik Mahallesi,2025-10-03,Villa,500.0,650.0,4.0,Yerden Isıtma,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Yok,5.0,,4.0,0,2.0,5.0,7.0
+591,5750000.0,Barbaros Mahallesi,2025-10-14,Müstakil Ev,100.0,125.0,2.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,2.0,,25.0,0,3.0,4.0,7.0
+592,7580000.0,Atatürk Mahallesi,2025-11-05,Daire,128.0,138.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,2.0,,0.0,2,1.0,3.0,4.0
+593,8990000.0,Erzene Mahallesi,2025-11-20,Bina,390.0,400.0,2.0,Doğalgaz Sobalı,Mülk Sahibi Oturuyor,Krediye Uygun,Hisseli Tapu,Hayır,Boş,Yok,1.0,2.0,25.0,0,1.0,2.0,3.0
+594,3125000.0,Barbaros Mahallesi,,Daire,28.0,34.0,30.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Yok,1.0,,3.0,5,1.0,0.0,1.0
+595,7550000.0,Atatürk Mahallesi,2025-11-05,Daire,128.0,138.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,2.0,2.0,0.0,2,1.0,3.0,4.0
+596,3000000.0,Zafer Mahallesi,2025-11-26,Müstakil Ev,85.0,100.0,1.0,Sobalı,Boş,Krediye Uygun,Arsa Tapulu,Hayır,,,2.0,,1.0,0,1.0,2.0,3.0
+597,10250000.0,İnönü Mahallesi,2025-10-03,Müstakil Ev,180.0,235.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Yok,2.0,,13.0,0,1.0,3.0,4.0
+598,4000000.0,Meriç Mahallesi,2025-10-14,Müstakil Ev,90.0,128.0,1.0,Isıtma Yok,Boş,Krediye Uygun,Müstakil Tapulu,Hayır,Boş,Var,1.0,,25.0,0,1.0,2.0,3.0
+599,3500000.0,Yıldırım Beyazıt Mahallesi,2025-10-28,Daire,130.0,135.0,4.0,Klimalı,Mülk Sahibi Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,18.0,-3,1.0,2.0,3.0
+600,16900000.0,Atatürk Mahallesi,2025-11-29,Daire,138.0,170.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Var,2.0,3.0,0.0,0,1.0,4.0,5.0
+601,3850000.0,İnönü Mahallesi,2025-11-29,Daire,77.0,85.0,2.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,1.0,0.0,0,1.0,2.0,3.0
+602,4750000.0,İnönü Mahallesi,2025-11-06,Daire,88.0,110.0,1.0,Isıtma Yok,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,Var,1.0,1.0,18.0,0,1.0,2.0,3.0
+603,3500000.0,Kazımdirik Mahallesi,2025-11-13,Daire,75.0,80.0,4.0,Kombi Doğalgaz,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,Var,1.0,1.0,7.0,4,1.0,2.0,3.0
+604,11000000.0,Karacaoğlan Mahallesi,2025-10-30,Daire,130.0,165.0,8.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Bilinmiyor,Evet,Boş,Yok,2.0,,7.0,2,1.0,3.0,4.0
+605,12500000.0,Mevlana Mahallesi,,Bina,180.0,181.0,5.0,Isıtma Yok,Boş,Krediye Uygun Değil,Arsa Tapulu,Hayır,,Yok,0.0,,25.0,0,0.0,1.0,1.0
+606,11500000.0,Erzene Mahallesi,2025-11-29,Daire,130.0,135.0,5.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,2.0,,0.0,4,1.0,3.0,4.0
+607,4400000.0,Kızılay Mahallesi,2025-10-28,Daire,110.0,120.0,5.0,Kombi Doğalgaz,Mülk Sahibi Oturuyor,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,7.0,2,1.0,3.0,4.0
+608,4500000.0,Doğanlar Mahallesi,2025-11-29,Daire,80.0,88.0,4.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat İrtifakı,Hayır,Boş,Yok,1.0,,0.0,3,1.0,2.0,3.0
+609,5350000.0,Kazımdirik Mahallesi,2025-10-27,Daire,44.0,55.0,7.0,Merkezi (Pay Ölçer),Boş,Krediye Uygun,Kat Mülkiyeti,Evet,Boş,Var,1.0,,7.0,7,1.0,1.0,2.0
+610,17000000.0,Koşukavak Mahallesi,2025-11-27,Bina,90.0,93.0,5.0,Klimalı,Kiracı Oturuyor,Krediye Uygun,Kat Mülkiyeti,Hayır,Boş,,1.0,1.0,25.0,0,1.0,2.0,3.0
+611,3790000.0,Gürpınar Mahallesi,2025-11-28,Daire,80.0,90.0,3.0,Kombi Doğalgaz,Boş,Krediye Uygun,Kat Mülkiyeti,Hayır,,,1.0,,0.0,0,1.0,2.0,3.0
+612,3300000.0,Yeşilova Mahallesi,2025-10-31,Residence,40.0,58.0,30.0,VRV,Boş,Krediye Uygun Değil,Kat İrtifakı,Hayır,Boş,Var,1.0,,0.0,20,1.0,1.0,2.0
