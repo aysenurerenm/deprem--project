@@ -36,8 +36,8 @@ def home(request):
                     "yer": q.get("title"),
                     "mag": q.get("mag"),
                     "derinlik": q.get("depth"),
-                    "lat": coords[1],   # latitude
-                    "lon": coords[0],   # longitude
+                    "lat": coords[1],   
+                    "lon": coords[0],   
                 })
     except Exception as e:
         print("Deprem API Hatası:", e)
