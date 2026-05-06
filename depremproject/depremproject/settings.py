@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-t5o$_vvjpe5e)ed^5zs8)75c4*-f$%5l73a0j!b(5im)ntqc=3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# settings.py
+
+# Eski hali muhtemelen şöyledir: ALLOWED_HOSTS = []
+# Şu şekilde güncelleyin:
+ALLOWED_HOSTS = ['10.0.2.2', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -40,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
 
 MIDDLEWARE = [
@@ -78,7 +83,7 @@ WSGI_APPLICATION = 'depremproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DepremYonetimi',
+        'NAME': 'deprem_yonetimi',
         'USER': 'postgres',
         'PASSWORD': '12345',   # Senin şifre
         'HOST': 'localhost',
@@ -136,7 +141,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTHENTICATION_BACKENDS = [
     'anasayfa.auth_backends.EmailOrTCBackend',
 ]
-class Meta:
-    managed = False
+
     
-LOGIN_URL = '/login/'
+

@@ -16,9 +16,11 @@ class ToplanmaAlanlari(models.Model):
     alanID = models.AutoField(primary_key=True)
     enlem = models.FloatField()
     boylam = models.FloatField()
-    kapasite = models.IntegerField()
-    Ad = models.CharField(max_length=255)
-    Mahalle = models.CharField(max_length=255)
+    alan = models.IntegerField()
+    ilceAd = models.CharField(max_length=255)
+    mahalleAdı = models.CharField(max_length=255)
+    depoID = models.ForeignKey(
+        'Depo', on_delete=models.SET_NULL, null=True, blank=True, db_column="depoID")
 
 
     class Meta:
@@ -71,6 +73,7 @@ class Urunler(models.Model):
     urunID = models.AutoField(primary_key=True)
     urunAd = models.CharField(max_length=255)
     urunHacim = models.IntegerField()
+    Aciliyet = models.CharField(max_length=50, null=True, blank=True)
 
     class Meta:
         db_table = '"urunler"'
@@ -90,6 +93,8 @@ class Ihtiyac(models.Model):
         ToplanmaAlanlari, on_delete=models.CASCADE, db_column="alanID"
     )
     ihtiyacdurum = models.CharField(max_length=50)
+    talepZamanı = models.DateTimeField()
+    
 
     class Meta:
         db_table = '"ihtiyac"'
@@ -100,8 +105,8 @@ class Ihtiyac(models.Model):
 # ======================
 class Depo(models.Model):
     depoID = models.AutoField(primary_key=True)
-    enlem = models.IntegerField()
-    boylam = models.IntegerField()
+    enlem = models.FloatField()
+    boylam = models.FloatField()
     kullaniciID = models.ForeignKey(Kullanici, on_delete=models.CASCADE, db_column="kullaniciID")
     depoKapasite = models.IntegerField()
     kapasiteoran = models.FloatField()
@@ -115,7 +120,7 @@ class Depo(models.Model):
 #      DEPO ÜRÜNLERİ
 # ======================
 class DepoUrunler(models.Model):
-    depourunID = models.AutoField(primary_key=True)
+    depoUrunID = models.AutoField(primary_key=True)
     depoID = models.ForeignKey(Depo, on_delete=models.CASCADE, db_column="depoID")
     urunID = models.ForeignKey(Urunler, on_delete=models.CASCADE, db_column="urunID")
     urunMiktar = models.IntegerField()
@@ -140,12 +145,16 @@ class YukKaydi(models.Model):
 #       ARAÇLAR
 # ======================
 class Arac(models.Model):
+    #enlem = models.FloatField()
+    #boylam = models.FloatField()
+    #son_guncelleme = models.DateTimeField(auto_now=True)
     aracID = models.AutoField(primary_key=True)
     plaka = models.CharField(max_length=255)
     durum = models.CharField(max_length=255)
     kapasite = models.IntegerField()
     aracTip = models.CharField(max_length=255)
     kullaniciID = models.IntegerField()
+    depoID = models.ForeignKey(Depo, on_delete=models.CASCADE, db_column="depoID")
 
     class Meta:
         db_table = '"Arac"'

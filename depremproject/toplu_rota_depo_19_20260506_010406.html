@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ad3cef1595efc6af1726541ff3db2a9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ad3cef1595efc6af1726541ff3db2a9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ad3cef1595efc6af1726541ff3db2a9 = L.map(
+                "map_8ad3cef1595efc6af1726541ff3db2a9",
+                {
+                    center: [38.41, 27.12],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_84b636867e0696856431fa8dc0e9aaed = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_84b636867e0696856431fa8dc0e9aaed.addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+            var marker_c6b18171b21793ff6471a997a21cac42 = L.marker(
+                [38.41, 27.12],
+                {
+}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+            var icon_cebeb2caa468b2896afddb5f75c655b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b371ddf701277ee78c759d7a56cccfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c946573f88aa72fa16ecee794202891 = $(`<div id="html_1c946573f88aa72fa16ecee794202891" style="width: 100.0%; height: 100.0%;">ANA DEPO</div>`)[0];
+                popup_6b371ddf701277ee78c759d7a56cccfa.setContent(html_1c946573f88aa72fa16ecee794202891);
+            
+        
+
+        marker_c6b18171b21793ff6471a997a21cac42.bindPopup(popup_6b371ddf701277ee78c759d7a56cccfa)
+        ;
+
+        
+    
+    
+                marker_c6b18171b21793ff6471a997a21cac42.setIcon(icon_cebeb2caa468b2896afddb5f75c655b3);
+            
+    
+            var poly_line_433fcf574c54d0561d8c1c9c7f52ad27 = L.polyline(
+                [[38.41, 27.12], [38.517028, 27.238388], [38.503691, 27.274727], [38.517743, 27.270931], [38.499081, 27.284462], [38.532773, 27.291669]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+            var circle_marker_d7cf3e550849a988717e2fa491b94a49 = L.circleMarker(
+                [38.517028, 27.238388],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+        var popup_8bcf1827d0254c885274112bd5b6fea9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fa26c2239cd578023070ad6b0a03fe1 = $(`<div id="html_2fa26c2239cd578023070ad6b0a03fe1" style="width: 100.0%; height: 100.0%;">Durak: 1<br>Konum: 38.51703, 27.23839<br>Teslim Edilen Kalem: <b>2 adet</b></div>`)[0];
+                popup_8bcf1827d0254c885274112bd5b6fea9.setContent(html_2fa26c2239cd578023070ad6b0a03fe1);
+            
+        
+
+        circle_marker_d7cf3e550849a988717e2fa491b94a49.bindPopup(popup_8bcf1827d0254c885274112bd5b6fea9)
+        ;
+
+        
+    
+    
+            var marker_ea9d00e9aea721ee87fe5e0e8d9bb57c = L.marker(
+                [38.517028, 27.238388],
+                {
+}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+            var div_icon_977a2e5cd498d6d27b8ee69e10325a6d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: white; background: black; border-radius: 50%; width: 20px; height: 20px; text-align: center; line-height: 20px; font-weight: bold;\"\u003e1\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_ea9d00e9aea721ee87fe5e0e8d9bb57c.setIcon(div_icon_977a2e5cd498d6d27b8ee69e10325a6d);
+            
+    
+            var circle_marker_7907fdb63f3c413e342c578afa1e73d3 = L.circleMarker(
+                [38.503691, 27.274727],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+        var popup_e23c164fe8b22b39ff0ad19005e50922 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f86865e4d86d44d9c3a98666b2cc40f6 = $(`<div id="html_f86865e4d86d44d9c3a98666b2cc40f6" style="width: 100.0%; height: 100.0%;">Durak: 2<br>Konum: 38.50369, 27.27473<br>Teslim Edilen Kalem: <b>4 adet</b></div>`)[0];
+                popup_e23c164fe8b22b39ff0ad19005e50922.setContent(html_f86865e4d86d44d9c3a98666b2cc40f6);
+            
+        
+
+        circle_marker_7907fdb63f3c413e342c578afa1e73d3.bindPopup(popup_e23c164fe8b22b39ff0ad19005e50922)
+        ;
+
+        
+    
+    
+            var marker_b4d9e1d81c37f33a79e9687499f22f75 = L.marker(
+                [38.503691, 27.274727],
+                {
+}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+            var div_icon_519af2b8ad03da171568c230301e506d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: white; background: black; border-radius: 50%; width: 20px; height: 20px; text-align: center; line-height: 20px; font-weight: bold;\"\u003e2\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_b4d9e1d81c37f33a79e9687499f22f75.setIcon(div_icon_519af2b8ad03da171568c230301e506d);
+            
+    
+            var circle_marker_7c5efebee82bebcf927167707942913e = L.circleMarker(
+                [38.517743, 27.270931],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+        var popup_6c03d44295949605eae86ba72ebb4206 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_338801fabe48eec666bf660089e200bc = $(`<div id="html_338801fabe48eec666bf660089e200bc" style="width: 100.0%; height: 100.0%;">Durak: 3<br>Konum: 38.51774, 27.27093<br>Teslim Edilen Kalem: <b>2 adet</b></div>`)[0];
+                popup_6c03d44295949605eae86ba72ebb4206.setContent(html_338801fabe48eec666bf660089e200bc);
+            
+        
+
+        circle_marker_7c5efebee82bebcf927167707942913e.bindPopup(popup_6c03d44295949605eae86ba72ebb4206)
+        ;
+
+        
+    
+    
+            var marker_403c96db63316c13d24b207af24f9dd0 = L.marker(
+                [38.517743, 27.270931],
+                {
+}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+            var div_icon_f74790cfb0b94407a42eb076da2ec27b = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: white; background: black; border-radius: 50%; width: 20px; height: 20px; text-align: center; line-height: 20px; font-weight: bold;\"\u003e3\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_403c96db63316c13d24b207af24f9dd0.setIcon(div_icon_f74790cfb0b94407a42eb076da2ec27b);
+            
+    
+            var circle_marker_556ffbe833ad8f4346b34e6980870db6 = L.circleMarker(
+                [38.499081, 27.284462],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+        var popup_aa9e80351d40a42e5a163965312e027a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79bf817a99395cf764452ef27ea38bcd = $(`<div id="html_79bf817a99395cf764452ef27ea38bcd" style="width: 100.0%; height: 100.0%;">Durak: 4<br>Konum: 38.49908, 27.28446<br>Teslim Edilen Kalem: <b>3 adet</b></div>`)[0];
+                popup_aa9e80351d40a42e5a163965312e027a.setContent(html_79bf817a99395cf764452ef27ea38bcd);
+            
+        
+
+        circle_marker_556ffbe833ad8f4346b34e6980870db6.bindPopup(popup_aa9e80351d40a42e5a163965312e027a)
+        ;
+
+        
+    
+    
+            var marker_520ccf740b0a886c3a6cdbfcad10a5e6 = L.marker(
+                [38.499081, 27.284462],
+                {
+}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+            var div_icon_edbaa2f667f67b2b639833a486f2c087 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: white; background: black; border-radius: 50%; width: 20px; height: 20px; text-align: center; line-height: 20px; font-weight: bold;\"\u003e4\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_520ccf740b0a886c3a6cdbfcad10a5e6.setIcon(div_icon_edbaa2f667f67b2b639833a486f2c087);
+            
+    
+            var circle_marker_9d56f2ff3d20b6a3fdfaf55ca63f32f7 = L.circleMarker(
+                [38.532773, 27.291669],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+        var popup_476179983514ce881ecb7d1d33fd58df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acca1d1e059ce58a764fecbf08179417 = $(`<div id="html_acca1d1e059ce58a764fecbf08179417" style="width: 100.0%; height: 100.0%;">Durak: 5<br>Konum: 38.53277, 27.29167<br>Teslim Edilen Kalem: <b>1 adet</b></div>`)[0];
+                popup_476179983514ce881ecb7d1d33fd58df.setContent(html_acca1d1e059ce58a764fecbf08179417);
+            
+        
+
+        circle_marker_9d56f2ff3d20b6a3fdfaf55ca63f32f7.bindPopup(popup_476179983514ce881ecb7d1d33fd58df)
+        ;
+
+        
+    
+    
+            var marker_9076e190e2529ecdf8921a5af1a12812 = L.marker(
+                [38.532773, 27.291669],
+                {
+}
+            ).addTo(map_8ad3cef1595efc6af1726541ff3db2a9);
+        
+    
+            var div_icon_ce25a8f283b0148c1d630e492ed9c7f9 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: white; background: black; border-radius: 50%; width: 20px; height: 20px; text-align: center; line-height: 20px; font-weight: bold;\"\u003e5\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_9076e190e2529ecdf8921a5af1a12812.setIcon(div_icon_ce25a8f283b0148c1d630e492ed9c7f9);
+            
+</script>
+</html>

@@ -1,9 +1,15 @@
 
 from django.urls import path
 from . import views
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import *
+
+
 
 
 urlpatterns = [
+    
     path('', views.home, name='home'),
     path("en-yakin-toplanma/", views.en_yakin_toplanma, name="en_yakin_toplanma"),
     path('citizen_dashboard/', views.citizen_dashboard, name='citizen_dashboard'),

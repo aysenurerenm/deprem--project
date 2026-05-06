@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # 🔹 Model yükleniyor
-BASE_DIR = os.path.dirname(os.path.abspath("C:\\Users\\Aysima\\deprem--project\\depremproject\\tahmin_app\\gb_model_final.pkl"))
+BASE_DIR = os.path.dirname(os.path.abspath("C:\\Users\\ACER\\Desktop\\gb_model3_final.pkl"))
 
 # 🔹 Modelin tam yolu
 MODEL_PATH = os.path.join(BASE_DIR, "gb_model_final.pkl")

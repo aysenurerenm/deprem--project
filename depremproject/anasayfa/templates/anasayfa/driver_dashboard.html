@@ -31,12 +31,13 @@
             </div>
 
             <script>
-                const startLat = {{ start_lat }};
-                const startLng = {{ start_lng }};
-                const endLat   = {{ end_lat }};
-                const endLng   = {{ end_lng }};
+                const startLat = { start_lat };
+                const startLng = { start_lng };
+                const endLat   = { end_lat };
+                const endLng   = { end_lng };
 
                 const map = L.map('map').setView([startLat, startLng], 13);
+                
 
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     maxZoom: 18,

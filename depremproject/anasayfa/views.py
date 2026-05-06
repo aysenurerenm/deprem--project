@@ -17,6 +17,23 @@ import requests
 from django.shortcuts import render
 from math import radians, cos, sin, asin, sqrt
 from django.http import JsonResponse
+import math
+
+
+
+
+
+
+def bellman_ford(nodes, edges, source):
+    dist = {n: float("inf") for n in nodes}
+    dist[source] = 0
+
+    for _ in range(len(nodes) - 1):
+        for u, v, w in edges:
+            if dist[u] + w < dist[v]:
+                dist[v] = dist[u] + w
+
+    return dist
 
 
 def home(request):
@@ -764,6 +781,7 @@ def talep_yonetim(request):
                         raise Exception("İhtiyaç bilgileri alınamadı.")
 
                     alan_id, urun_id, miktar = row
+                    
 
 # 3️⃣ YukDetay oluştur
                     cursor.execute(
@@ -825,15 +843,88 @@ def talep_yonetim(request):
                     ulasim_id = row[0]
                     print("✅ Ulaşım ID:", ulasim_id)
 
-                    # 2️⃣ FONKSİYONA ULAŞIM ID GÖNDER
-                    cursor.execute(
-                        'SELECT gorev_atama(%s);',
-                        [ulasim_id]
-                    )
+                    with transaction.atomic():
+                        with connection.cursor() as cursor:
+                            # Tek sorguda depo konumu ve ihtiyaç miktarını alalım
+                            cursor.execute('''
+                                SELECT d."enlem", d."boylam", i."ihtiyacmiktar", yu."ulasimID"
+                                FROM "YardimUlasimi" yu
+                                JOIN "Depo" d ON yu."depoID" = d."depoID"
+                                JOIN "ihtiyac" i ON yu."ihtiyacID" = i."ihtiyacID"
+                                WHERE yu."ihtiyacID" = %s
+                                LIMIT 1;
+                            ''', [ihtiyac_id])
+                            
+                            row = cursor.fetchone()
+                            if not row:
+                                raise Exception("İlgili kayıtlar bulunamadı.")
+                                
+                            depo_enlem, depo_boylam, ihtiyac_miktar, ulasim_id = row
+                            
+                            # Uygun araçları çek (Büyük-küçük harf duyarlılığına dikkat: 'Beklemede')
+                            cursor.execute('SELECT "aracID", "kapasite", "enlem", "boylam" FROM "Arac" WHERE TRIM("durum") ILIKE %s', ['Beklemede'])
+                            araclar = cursor.fetchall()
+                            
+                            # Filtreleme ve Maliyet Hesabı
+                            beta = 10
+                            nodes = ["DEPOT"]
+                            edges = []
+                            print("📦 İhtiyaç miktarı:", ihtiyac_miktar)
+                            print("🚚 Araçlar:")
+                            for a in araclar:
+                                print(a)
+                            cursor.execute('SELECT "urunHacim" from "urunler" where "urunID" = (SELECT "urunID" FROM "ihtiyac" WHERE "ihtiyacID"=%s)', [ihtiyac_id])
+                            urun_hacim = cursor.fetchone()[0]
+                            ihtiyac_hacim = ihtiyac_miktar * urun_hacim
+                            print("📦 İhtiyaç hacmi:", ihtiyac_hacim)
+                            for a_id, kapasite, a_enlem, a_boylam in araclar:
+                                if kapasite >= ihtiyac_hacim:
+                                    yol_maliyeti = haversine(depo_enlem, depo_boylam, a_enlem, a_boylam)
+                                    # Kapasite cezası: Çok büyük aracı küçük yük için harcamamak için
+                                    kapasite_cezasi = beta * (kapasite - ihtiyac_hacim)
+                                    total = yol_maliyeti + kapasite_cezasi
+                                    
+                                    node_name = f"ARAC_{a_id}"
+                                    nodes.append(node_name)
+                                    edges.append(("DEPOT", node_name, total))
 
+                            if not edges:
+                                raise Exception("Uygun kapasitede araç bulunamadı.")
+
+                            # En kısa yolu bul (Bellman-Ford)
+                            distances = bellman_ford(nodes, edges, "DEPOT")
+
+                            best_node = min(
+                                [n for n in nodes if n != "DEPOT" and distances[n] < math.inf],
+                                key=lambda n: distances[n]
+                            )
+
+                            best_arac_id = int(best_node.split("_")[1])
+
+
+
+                            """
+                            best_edge = min(edges, key=lambda x: x[2])
+                            best_node = best_edge[1] # "ARAC_1"
+
+                            best_arac_id = int(best_node.split("_")[1])"""
+                            print(f"✅ En uygun araç seçildi: {best_arac_id}")
+                            # GÜNCELLEMELER
+                            # 1. Aracı meşgul et
+                            cursor.execute('UPDATE "Arac" SET "durum" = %s WHERE "aracID" = %s', ['sevkiyatta', best_arac_id])
+                            
+                            # 2. YardımUlasimi tablosuna aracı ata (Eğer tablonuzda bu sütun varsa)
+                            cursor.execute('UPDATE "YardimUlasimi" SET "aracID" = %s, "durum"=%s WHERE "ulasimID" = %s', [best_arac_id,'sevkiyatta', ulasim_id])
+
+
+                                        # 2️⃣ FONKSİYONA ULAŞIM ID GÖNDER
+                                        
             mesaj = "🚚 Görev ataması başarıyla yapıldı."
 
         except Exception as e:
+            hata = f"❌ Görev atama hatası: {str(e)}"
+            import traceback
+            print(traceback.format_exc()) # Konsola hatanın tam yerini yazdırır
             hata = f"❌ Görev atama hatası: {str(e)}"
 
     # ======================================================
